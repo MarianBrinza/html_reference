@@ -1,0 +1,15 @@
+.filter-comp {
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+
+  label{
+    cursor: pointer;
+
+    input{
+      margin-left: 10px;
+      cursor: pointer;
+    }
+  }
+}
