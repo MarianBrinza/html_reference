@@ -1,9 +1,16 @@
-.search-comp{
+@import "src/styles/styleVariables";
+
+.search-comp {
   display: flex;
 
-  input{
+  input {
     flex: 1;
-    padding: 10px;
     border-radius: 3px;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 20px;
+    outline: none;
+    border: 1px solid $darkGrey;
   }
+
 }
