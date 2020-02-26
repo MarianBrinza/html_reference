@@ -7,19 +7,19 @@ const Filter = (props) => {
     <div className={styles.filterComp}>
       <label>
         inline
-        <input type='checkbox' />
+        <input type='checkbox'/>
       </label>
       <label>
         block
-        <input type='checkbox' />
+        <input type='checkbox'/>
       </label>
       <label>
         html 5
-        <input type='checkbox' />
+        <input type='checkbox'/>
       </label>
       <label>
         lists
-        <input type='checkbox' />
+        <input type='checkbox'/>
       </label>
     </div>
   );
