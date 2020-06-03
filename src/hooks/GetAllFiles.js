@@ -9,6 +9,8 @@ const GetAllFiles = () => {
                     node{
                         frontmatter{
                             name
+                            type
+                            html5
                         }
                     }
                 }
