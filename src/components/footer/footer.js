@@ -6,7 +6,7 @@ const Footer = (props) => {
   return (
     <footer className={styles.footerComp}>
       <div>
-        <p>made by © noAdsApps</p>
+        <p>made by © {props.author}</p>
         <p>No ads, no tracking & forever free</p>
         <p>Website source code available at</p>
         <p>github link here</p>
