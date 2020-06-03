@@ -1,5 +1,5 @@
 ---
 name: '<aside>'
 type: 'block'
-html5: 'true'
+html5: 'Yes'
 ---

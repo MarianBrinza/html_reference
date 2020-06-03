@@ -1,7 +1,7 @@
 ---
 name: '<abbr>'
 type: 'inline'
-html5: 'false'
+html5: 'Yes'
 ---
 
 The HTML Abbreviation element (`<abbr>`) represents an abbreviation or acronym; 

@@ -1,7 +1,7 @@
 ---
 name: '<a>'
 type: 'inline'
-html5: 'true'
+html5: 'No'
 ---
 
 The HTML `<a>` element (or anchor element), with its href attribute, creates a hyperlink to web pages,
