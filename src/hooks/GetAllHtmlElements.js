@@ -1,6 +1,6 @@
 import { graphql, useStaticQuery } from 'gatsby';
 
-const GetAllFiles = () => {
+const GetAllHtmlElements = () => {
   const data = useStaticQuery(
     graphql`
         query {
@@ -22,4 +22,4 @@ const GetAllFiles = () => {
   return data.allMarkdownRemark.edges;
 };
 
-export default GetAllFiles;
+export default GetAllHtmlElements;
