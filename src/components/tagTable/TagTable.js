@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './TagTable.module.scss';
 import Tag from '../tag/Tag';
 
-const TagTable = ({ filesArray }) => {
+const TagTable = ({ htmlElementsToDisplay }) => {
 
   return (
     <div className={styles.tagListComp}>
       {
-        filesArray.map((file, index) => {
+        htmlElementsToDisplay.map((file, index) => {
           return (
             <Tag
               tagName={file.node.frontmatter.name}
