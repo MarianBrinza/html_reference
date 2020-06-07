@@ -9,17 +9,20 @@ const GetAllHtmlElements = () => {
                     node{
                         frontmatter{
                             name
-                            type
+                            inline
+                            block
                             html5
+                            selfClosing
                         }
                     }
                 }
             }
         }
-    `,
+    `
   );
 
-  return data.allMarkdownRemark.edges;
+  const arr = data.allMarkdownRemark.edges;
+  return arr.map(item => item.node.frontmatter);
 };
 
 export default GetAllHtmlElements;
