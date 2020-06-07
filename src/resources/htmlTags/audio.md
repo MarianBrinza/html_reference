@@ -1,5 +1,7 @@
 ---
 name: '<audio>'
-type: 'inline'
-html5: 'Yes'
+inline: 'true'
+block: 'false'
+html5: 'true'
+selfClosing: 'true'
 ---

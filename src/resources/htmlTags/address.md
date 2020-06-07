@@ -1,7 +1,9 @@
 ---
 name: '<address>'
-type: 'block'
-html5: 'Yes'
+inline: 'false'
+block: 'true'
+html5: 'true'
+selfClosing: 'false'
 ---
 
 he HTML `<address>` element indicates that the enclosed HTML provides contact information

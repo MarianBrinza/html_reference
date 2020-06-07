@@ -1,5 +1,7 @@
 ---
 name: '<article>'
-type: 'block'
-html5: 'Yes'
+inline: 'false'
+block: 'true'
+html5: 'true'
+selfClosing: 'false'
 ---
