@@ -1,3 +1,26 @@
+@import "src/styles/styleVariables";
+
 .tag-list-comp {
   margin-bottom: 20px;
+}
+
+.table-header {
+  border: 1px solid $lightGrey;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  text-transform: capitalize;
+  font-weight: bold;
+
+  div:nth-child(2),
+  div:nth-child(4),
+  div:nth-child(3) {
+    text-align: right;
+  }
+
+  div {
+    flex: 1;
+  }
 }
