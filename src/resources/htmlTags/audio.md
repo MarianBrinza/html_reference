@@ -1,7 +1,7 @@
 ---
 name: '<audio>'
-inline: 'true'
-block: 'false'
+inline: 'false'
+block: 'true'
 html5: 'true'
-selfClosing: 'true'
+selfClosing: 'false'
 ---

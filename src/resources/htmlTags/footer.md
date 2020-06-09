@@ -1,5 +1,5 @@
 ---
-name: '<aside>'
+name: '<footer>'
 inline: 'false'
 block: 'true'
 html5: 'true'

@@ -1,5 +1,5 @@
 ---
-name: '<aside>'
+name: '<ruby>'
 inline: 'false'
 block: 'true'
 html5: 'true'

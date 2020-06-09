@@ -1,5 +1,5 @@
 ---
-name: '<abbr>'
+name: '<object>'
 inline: 'true'
 block: 'false'
 html5: 'false'

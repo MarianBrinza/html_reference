@@ -1,7 +1,7 @@
 ---
-name: '<address>'
+name: '<param>'
 inline: 'false'
 block: 'true'
 html5: 'false'
-selfClosing: 'false'
+selfClosing: 'true'
 ---

@@ -1,5 +1,5 @@
 ---
-name: '<aside>'
+name: '<meter>'
 inline: 'false'
 block: 'true'
 html5: 'true'

@@ -1,7 +1,7 @@
 ---
-name: '<abbr>'
+name: '<img>'
 inline: 'true'
 block: 'false'
 html5: 'false'
-selfClosing: 'false'
+selfClosing: 'true'
 ---

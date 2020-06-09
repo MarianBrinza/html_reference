@@ -1,5 +1,5 @@
 ---
-name: '<abbr>'
+name: '<small>'
 inline: 'true'
 block: 'false'
 html5: 'false'

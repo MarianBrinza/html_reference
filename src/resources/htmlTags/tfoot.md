@@ -1,7 +1,7 @@
 ---
-name: '<aside>'
+name: '<tfoot>'
 inline: 'false'
 block: 'true'
-html5: 'true'
+html5: 'false'
 selfClosing: 'false'
 ---

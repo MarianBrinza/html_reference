@@ -1,5 +1,5 @@
 ---
-name: '<aside>'
+name: '<hgroup>'
 inline: 'false'
 block: 'true'
 html5: 'true'

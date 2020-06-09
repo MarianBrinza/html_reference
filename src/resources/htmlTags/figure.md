@@ -1,5 +1,5 @@
 ---
-name: '<aside>'
+name: '<figure>'
 inline: 'false'
 block: 'true'
 html5: 'true'

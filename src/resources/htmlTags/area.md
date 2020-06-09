@@ -1,7 +1,7 @@
 ---
 name: '<area>'
-inline: 'true'
-block: 'false'
-html5: 'true'
-selfClosing: 'false'
+inline: 'false'
+block: 'true'
+html5: 'false'
+selfClosing: 'true'
 ---

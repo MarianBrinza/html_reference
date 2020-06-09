@@ -1,5 +1,5 @@
 ---
-name: '<abbr>'
+name: '<bdo>'
 inline: 'true'
 block: 'false'
 html5: 'false'

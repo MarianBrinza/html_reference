@@ -1,7 +1,7 @@
 ---
-name: '<address>'
+name: '<meta>'
 inline: 'false'
 block: 'true'
 html5: 'false'
-selfClosing: 'false'
+selfClosing: 'true'
 ---
