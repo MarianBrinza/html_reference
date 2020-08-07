@@ -4,7 +4,7 @@ const GetAllHtmlElements = () => {
   const data = useStaticQuery(
     graphql`
         query {
-            allMarkdownRemark {
+            allMarkdownRemark (sort: {fields: frontmatter___name}) {
                 edges {
                     node{
                         frontmatter{
@@ -14,15 +14,19 @@ const GetAllHtmlElements = () => {
                             html5
                             selfClosing
                         }
+                        html
                     }
                 }
             }
         }
     `
   );
-
   const arr = data.allMarkdownRemark.edges;
-  return arr.map(item => item.node.frontmatter);
+  return arr.map(item => {
+    let a = item.node.frontmatter;
+    a.html = item.node.html;
+    return a;
+  });
 };
 
 export default GetAllHtmlElements;
