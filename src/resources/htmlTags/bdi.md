@@ -1,7 +1,7 @@
 ---
 name: '<bdi>'
-inline: 'false'
-block: 'true'
+inline: 'true'
+block: 'false'
 html5: 'true'
 selfClosing: 'false'
 ---

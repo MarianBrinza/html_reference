@@ -32,6 +32,19 @@ export const getDisplayElements = (elements, filters) => {
   }
 
   return trueElements;
+};
+
+
+
+export const toggle = (elementId) => {
+  const element = document.querySelector(elementId);
+  const elementVisible = window.getComputedStyle(element).display;
+
+  if (elementVisible === 'block') {
+    element.style.display = 'none';
+  } else {
+    element.style.display = 'block';
+  }
 
 
 };

@@ -13,7 +13,7 @@ const TagTable = ({ htmlElementsToDisplay }) => {
   const trueFilters = getStringFilters(filters);
   const trueElements = getDisplayElements(elements, trueFilters);
 
-  let displayElements = [];
+  let displayElements;
   if (trueFilters) {
     displayElements = trueElements;
   } else {
@@ -21,20 +21,22 @@ const TagTable = ({ htmlElementsToDisplay }) => {
   }
 
   return (
-    <div className={styles.tagListComp}>
+    <div id="elementsTable" className={styles.tagTableComp}>
       <div className={styles.tableHeader}>
-        <div>Tag</div>
-        <div>inline / block</div>
-        <div>html5</div>
-        <div>self-closing</div>
+        <span>Tag</span>
+        <span>inline block</span>
+        <span>html5</span>
+        <span>self closing</span>
       </div>
       {
         displayElements.map(element => {
           return (
-            <Tag
-              element={element}
-              key={element.name}>
+
+
+            <Tag element={element}
+                 key={element.name}>
             </Tag>
+
           );
         })
       }

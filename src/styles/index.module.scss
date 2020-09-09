@@ -1,0 +1,14 @@
+@import "src/styles/styleVariables";
+
+.mainContentWrapper {
+  //background-color: lime;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 790px) {
+  .mainContentWrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}

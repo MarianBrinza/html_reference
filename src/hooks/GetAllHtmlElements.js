@@ -13,6 +13,7 @@ const GetAllHtmlElements = () => {
                             block
                             html5
                             selfClosing
+                            test
                         }
                         html
                     }

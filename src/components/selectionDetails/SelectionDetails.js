@@ -1,22 +1,31 @@
 import React, { useContext } from 'react';
 import styles from './SelectionDetails.module.scss';
-import { SelectedElement } from '../../context/SelectedElement';
+import { SelectedElementContext } from '../../context/SelectedElementContext';
+import { toggle } from '../../resources/util';
 
 const SelectionDetails = () => {
-  let { selectedElement } = useContext(SelectedElement);
+  let { selectedElement } = useContext(SelectedElementContext);
+  const a = selectedElement.test;
+  const { html } = selectedElement;
+  if (a) {
+    console.log(JSON.parse(selectedElement.test));
+  }
 
-  const { name, inline, block, html5, selfClosing, html } = selectedElement;
   return (
-    <div className={styles.tagDetailsComp}>
-      { Object.keys(selectedElement).length > 0 && (
-        <div>
-          <p>name: {name}</p>
-          <p>inline: {inline}</p>
-          <p>block: {block}</p>
-          <p>html5: {html5}</p>
-          <p>selfClosing: {selfClosing}</p>
-          <p>html: {html}</p>
-        </div>
+    <div id="selection-details" className={styles.tagDetailsComp}>
+      {Object.keys(selectedElement).length > 0 && (
+        <>
+          <button id={styles.toggleBtn}
+                  onClick={() => {
+                    toggle('#searchWrapper');
+                    toggle('#elementsTable');
+                  }}
+          >
+            Close me!
+          </button>
+
+          <div dangerouslySetInnerHTML={{ __html: html }}></div>
+        </>
       )}
     </div>
   );

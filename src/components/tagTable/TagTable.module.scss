@@ -1,27 +1,52 @@
 @import "src/styles/styleVariables";
 
-.tag-list-comp {
+.tag-table-comp {
   margin-bottom: 20px;
-  max-width: 330px;
-}
+  max-width: 280px;
+  background-color: peachpuff;
+  flex: 1;
 
-.table-header {
-  border: 1px solid $lightGrey;
-  height: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10px;
-  text-transform: capitalize;
-  font-weight: bold;
+  .table-header {
+    border: 1px solid $lightGrey;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 0 5px 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Calibri Arial sans-serif;
 
-  div:nth-child(2),
-  div:nth-child(4),
-  div:nth-child(3) {
-    text-align: right;
+    //div:nth-child(2),
+    //div:nth-child(4),
+    //div:nth-child(3) {
+    //  text-align: right;
+    //}
+    //
+    //div {
+    //  flex: 1;
+    //}
+
+    span:nth-child(1){
+      flex: 2;
+      max-width: 100px;
+    }
+    span:nth-child(2),
+    span:nth-child(3),
+    span:nth-child(4){
+      flex: 1;
+    }
+    span:nth-child(3),
+    span:nth-child(4){
+      text-align: center;
+    }
   }
 
-  div {
-    flex: 1;
+}
+
+@media only screen and (max-width: 790px) {
+  .tag-table-comp {
+    max-width: 330px;
+    width: 100%;
   }
 }

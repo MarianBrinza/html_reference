@@ -1,587 +1,821 @@
 export const MyHtmlTags = [
   {
     name: '<a>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<abbr>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<address>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<area>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<article>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<aside>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<audio>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<b>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<base>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<bdi>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<bdo>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<blockquote>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<body>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<br>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<button>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<canvas>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<caption>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<cite>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<code>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<col>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<colgroup>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<data>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<datalist>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<dd>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<del>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<details>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<dfn>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<dialog>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<div>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<dl>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<dt>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<em>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<embed>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'true'
   },
   {
     name: '<fieldset>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<figcaption>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<figure>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<footer>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<form>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<h1>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<h2>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<h3>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<h4>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<h5>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<h6>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<head>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<header>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<hgroup>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<hr>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<html>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<i>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<iframe>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<img>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<input>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<ins>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<kbd>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<label>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<legend>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<li>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<link>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<main>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<map>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<mark>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<math>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<menu>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<menuitem>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<meta>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<meter>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<nav>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<noscript>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<object>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<ol>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<optgroup>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<option>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<output>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<p>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<param>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<picture>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<pre>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<progress>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<q>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<rb>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<rp>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<rt>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<rtc>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<ruby>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<s>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<samp>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<script>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<section>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<select>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<slot>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<small>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<source>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'true'
   },
   {
     name: '<span>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<strong>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<style>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<sub>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<summary>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<sup>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<svg>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<table>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<tbody>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<td>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<template>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<textarea>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<tfoot>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<th>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<thead>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<time>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<title>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<tr>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<track>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'true'
   },
   {
     name: '<u>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<ul>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<var>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'true',
+    block: 'false',
+    html5: 'false',
+    selfClosing: 'false'
   },
   {
     name: '<video>',
-    type: 'inline',
-    html5: 'true'
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'false'
   },
   {
     name: '<wbr>',
-    type: 'inline',
-    html5: 'true'
-  },
+    inline: 'false',
+    block: 'true',
+    html5: 'true',
+    selfClosing: 'true'
+  }
 ];

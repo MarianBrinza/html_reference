@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `HTML Reference`,
     description: `Html reference, nothing more`,
-    author: `@noAdApps`,
+    author: `@noAdApps`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,11 +10,19 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `htmlTags`,
-        path: `${__dirname}/src/resources/htmlTags`,
-      },
+        path: `${__dirname}/src/resources/htmlTags`
+      }
     },
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-prismjs`
+        ]
+      }
+    },
+
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -25,12 +33,27 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
-    'gatsby-plugin-sass',
-  ],
-}
+    // {
+    //   resolve: `gatsby-plugin-mdx`,
+    //   options: {
+    //     extension: ['.md', '.mdx']
+    //      defaultLayouts: {
+    //        default: require.resolve('./src/components/layout/layout.js')
+    //      }
+    //   }
+    // }
+      // this (optional) plugin enables Progressive Web App + Offline functionality
+      // To learn more, visit: https://gatsby.dev/offline
+      `gatsby-plugin-offline`,
+    'gatsby-plugin-sass'
+  ]
+};
