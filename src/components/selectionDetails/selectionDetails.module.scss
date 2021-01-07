@@ -1,0 +1,37 @@
+@import "src/styles/styleVariables";
+
+.selection-details-comp {
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: chocolate;
+  flex: 1;
+  //display: none;
+}
+
+//#toggle-btn {
+//  display: none;
+//  font-size: 30px;
+//}
+//
+@media only screen and (max-width: 790px) {
+//  .main-content{
+//    padding: 0;
+//  }
+//  .tag-details-comp{
+//    padding-left: 0;
+//  }
+//  #toggle-btn {
+//    display: block;
+//    font-size: 30px;
+//  }
+}
+
+//@media only screen and (max-width: 790px) {
+//  .selection-details-comp {
+//    width: calc(97% + 2px);
+//    background-color: honeydew;
+//  }
+//  #toggle-btn {
+//    display: block;
+//  }
+//}
