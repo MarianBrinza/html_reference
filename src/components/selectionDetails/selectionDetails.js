@@ -21,17 +21,18 @@ const SelectionDetails = () => {
   } = selectedElement;
 
   return (
-    <div id="selection-details" className={styles.selectionDetailsComp}>
+    <div id='selection-details' className={styles.selectionDetailsComp}>
       {/*{Object.keys(selectedElement).length > 0 && (*/}
       {/*  <>*/}
-      {/*    /!*<button id={styles.toggleBtn}*!/*/}
-      {/*    /!*        onClick={() => {*!/*/}
-      {/*    /!*          toggle('#searchWrapper');*!/*/}
-      {/*    /!*          toggle('#elementsTable');*!/*/}
-      {/*    /!*        }}*!/*/}
-      {/*    /!*>*!/*/}
-      {/*    /!*  Close me!*!/*/}
-      {/*    /!*</button>*!/*/}
+      <button id={styles.toggleBtn}
+              onClick={() => {
+                toggle('#searchWrapper');
+                toggle('#elementsTable');
+                toggle('#selection-details');
+              }}
+      >
+        Close me!
+      </button>
 
       {/*    <p>{block}</p>*/}
       {/*    <p>{html5}</p>*/}
@@ -40,10 +41,18 @@ const SelectionDetails = () => {
       {/*    <p>{selfClosing}</p>*/}
       {/*  </>*/}
       {/*)}*/}
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo recusandae?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo recusandae?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo recusandae?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo recusandae?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla
+        placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo
+        recusandae?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla
+        placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo
+        recusandae?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla
+        placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo
+        recusandae?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dicta dignissimos incidunt ipsa libero nobis nulla
+        placeat, qui quidem quisquam. Accusantium beatae cumque distinctio nesciunt obcaecati quae quia quo
+        recusandae?</p>
     </div>
   );
 };

@@ -24,6 +24,7 @@ const TableRow = ({ element }) => {
            if (clientWidth < 791) {
              toggle('#searchWrapper');
              toggle('#elementsTable');
+             toggle('#selection-details');
            }
 
            setSelectedElement(element);
