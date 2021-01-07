@@ -6,7 +6,6 @@ export const SelectedElementContext = React.createContext();
 const SelectedElementProvider = (props) => {
   // state -> this will be shared to all components
   const [selectedElement, setSelectedElement] = useState({});
-
   return (
     <SelectedElementContext.Provider value={{ selectedElement, setSelectedElement }}>
       {props.children}

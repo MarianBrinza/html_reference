@@ -3,30 +3,26 @@ import { graphql, useStaticQuery } from 'gatsby';
 const GetAllHtmlElements = () => {
   const data = useStaticQuery(
     graphql`
-        query {
-            allMarkdownRemark (sort: {fields: frontmatter___name}) {
+        query getAll {
+            allElementsJson {
                 edges {
-                    node{
-                        frontmatter{
-                            name
-                            inline
-                            block
-                            html5
-                            selfClosing
-                            test
-                        }
-                        html
+                    node {
+                        block
+                        html5
+                        inline
+                        name
+                        selfClosing
+                        title
+                        description         
                     }
                 }
             }
         }
     `
   );
-  const arr = data.allMarkdownRemark.edges;
+  const arr = data.allElementsJson.edges;
   return arr.map(item => {
-    let a = item.node.frontmatter;
-    a.html = item.node.html;
-    return a;
+    return item.node;
   });
 };
 

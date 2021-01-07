@@ -2,7 +2,11 @@
 
 .tag-table-comp {
   margin-bottom: 20px;
-  max-width: 280px;
+  // need to explicitly say the width and max-width
+  // in order to keep the width to 330px because the parent
+  // is display: flex and will stretch the first column - the table
+  //width: 330px;
+  max-width: 330px;
   background-color: peachpuff;
   flex: 1;
 
@@ -17,27 +21,19 @@
     font-weight: bold;
     font-family: Calibri Arial sans-serif;
 
-    //div:nth-child(2),
-    //div:nth-child(4),
-    //div:nth-child(3) {
-    //  text-align: right;
-    //}
-    //
-    //div {
-    //  flex: 1;
-    //}
-
-    span:nth-child(1){
+    span:nth-child(1) {
       flex: 2;
-      max-width: 100px;
+      max-width: 110px;
     }
+
     span:nth-child(2),
     span:nth-child(3),
-    span:nth-child(4){
+    span:nth-child(4) {
       flex: 1;
     }
+
     span:nth-child(3),
-    span:nth-child(4){
+    span:nth-child(4) {
       text-align: center;
     }
   }
@@ -46,7 +42,20 @@
 
 @media only screen and (max-width: 790px) {
   .tag-table-comp {
-    max-width: 330px;
-    width: 100%;
+    //max-width: 330px;
+    //width: 100%;
+    min-width: 100%;
+
+  }
+
+  .table-header {
+    //span:nth-child(2):before {
+    //  content: '/';
+    //
+    //}
+    span:nth-child(2) {
+      text-align: center;
+    }
+
   }
 }

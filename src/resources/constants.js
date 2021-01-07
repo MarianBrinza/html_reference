@@ -1,3 +1,77 @@
+import GetAllHtmlElements from '../hooks/GetAllHtmlElements';
+import GetAllHtmlElements2 from '../hooks/GetAllHtmlElements2';
+import { tags } from './tags';
+
+/**
+ *   Find out missing tags - 20 missing tags
+ */
+
+const a = () => {
+  const htmlElementsToDisplay = GetAllHtmlElements(); // 117 elements
+  const htmlElements2 = GetAllHtmlElements2(); // 107 elements
+  const tagss = tags;
+
+  const names1 = htmlElementsToDisplay.map(el => el.name);
+  const names2 = htmlElements2.map(el => el.name);
+  const missing = []; // 20
+  names1.map(name => {
+    if (!names2.includes(name)) {
+      missing.push(name);
+    }
+  });
+
+  for (let i = 0; i < htmlElements2.length; i++) {
+    const el1 = htmlElements2[i];
+
+    for (let j = 0; j < htmlElementsToDisplay.length; j++) {
+      const el2 = htmlElementsToDisplay[j];
+
+      if (el1.name === el2.name) {
+        htmlElements2[i].name2 = el2.name;
+        htmlElements2[i].inline = el2.inline;
+        htmlElements2[i].block = el2.block;
+        htmlElements2[i].html5 = el2.html5;
+        htmlElements2[i].selfClosing = el2.selfClosing;
+      }
+    }
+  }
+  console.log(htmlElements2);
+};
+
+// missing tags
+const missingTags = [
+  '<code>',
+  '<dfn>',
+  '<em>',
+  '<h1>',
+  '<h2>',
+  '<h3>',
+  '<h4>',
+  '<h5>',
+  '<h6>',
+  '<hgroup>',
+  '<kbd>',
+  '<math>',
+  '<menu>',
+  '<menuitem>',
+  '<rb>',
+  '<rtc>',
+  '<samp>',
+  '<slot>',
+  '<strong>',
+  '<var>',
+  '<!--...-->',
+  '<!DOCTYPE>',
+  '<dfn> ',
+  '<em> ',
+  '<code> ',
+  '<h1><h6>',
+  '<kbd> ',
+  '<strong> ',
+  '<samp> ',
+  '<var> '
+];
+
 export const MyHtmlTags = [
   {
     name: '<a>',

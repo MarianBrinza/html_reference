@@ -1,0 +1,22 @@
+const missing = [
+  '<code>',
+  '<dfn>',
+  '<em>',
+  '<h1>',
+  '<h2>',
+  '<h3>',
+  '<h4>',
+  '<h5>',
+  '<h6>',
+  '<hgroup>',
+  '<kbd>',
+  '<math>',
+  '<menu>',
+  '<menuitem>',
+  '<rb>',
+  '<rtc>',
+  '<samp>',
+  '<slot>',
+  '<strong>',
+  '<var>'
+];

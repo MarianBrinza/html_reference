@@ -8,9 +8,7 @@ const ContextWrapper = (props) => {
     <SearchContextProvider>
       <FilterContextProvider>
         <ToggleListProvider>
-          {/*<SelectedElementProvider>*/}
-            {props.children}
-          {/*</SelectedElementProvider>*/}
+          {props.children}
         </ToggleListProvider>
       </FilterContextProvider>
     </SearchContextProvider>

@@ -1,12 +1,15 @@
 import React, { useContext } from 'react';
-import styles from './Tag.module.scss';
+import styles from './tableRow.module.scss';
 import { SelectedElementContext } from '../../context/SelectedElementContext';
 import { toggle } from '../../resources/util';
 
-const Tag = ({ element }) => {
-  const { name, inline, html5, selfClosing } = element;
+const TableRow = ({ element }) => {
+  const { name, html5, selfClosing } = element;
+  let { inline } = element;
   let tagType;
   let { setSelectedElement } = useContext(SelectedElementContext);
+
+  if (!inline) inline = 'false';
 
   if (JSON.parse(inline)) {
     tagType = 'inline';
@@ -15,7 +18,7 @@ const Tag = ({ element }) => {
   }
 
   return (
-    <div className={styles.tagRow}
+    <div className={styles.tableRow}
          onClick={() => {
            const clientWidth = document.body.clientWidth;
            if (clientWidth < 791) {
@@ -34,4 +37,4 @@ const Tag = ({ element }) => {
   );
 };
 
-export default Tag;
+export default TableRow;

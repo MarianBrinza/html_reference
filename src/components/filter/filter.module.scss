@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  max-width: 280px;
+  //max-width: 280px;
+  max-width: 330px;
+  background-color: lime;
 
   label {
     cursor: pointer;
@@ -15,10 +17,8 @@
   }
 }
 
-
 @media only screen and (max-width: 790px) {
   .filter-comp {
     max-width: 330px;
-
   }
 }
