@@ -4,37 +4,37 @@ const GetAllHtmlElements2 = () => {
   const data = useStaticQuery(
     graphql`
         query MyQuery {
-            allTags3Json {
+            allTags4Json {
                 edges {
                     node {
-                        name
-                        name2
-                        inline
                         block
-                        html5
-                        selfClosing
                         defaultCssCode
                         defaultCssText
                         definition
+                        description
                         exampleCode
                         exampleText
                         globalAttrib
                         globalEvents
+                        html5
+                        inline
+                        name
+                        name2
+                        selfClosing
                         url
                         attributes {
                             description
                             name
-                            url
                             value
+                            url
                         }
                     }
                 }
             }
         }
-
     `
   );
-  const arr = data.allTags3Json.edges;
+  const arr = data.allTags4Json.edges;
   return arr.map(item => {
     return item.node;
   });
