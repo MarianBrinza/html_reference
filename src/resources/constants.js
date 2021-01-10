@@ -1,6 +1,7 @@
 import GetAllHtmlElements from '../hooks/GetAllHtmlElements';
 import GetAllHtmlElements2 from '../hooks/GetAllHtmlElements2';
 import { tags } from './tags';
+import { aa } from './tagList';
 
 /**
  *   Find out missing tags - 20 missing tags
@@ -893,3 +894,25 @@ export const MyHtmlTags = [
     selfClosing: 'true'
   }
 ];
+
+function addDescriptionToTags(){
+  const htmlElementsToDisplay = GetAllHtmlElements2(); // 107 elements
+  const tagList = aa;
+
+  console.log(htmlElementsToDisplay[1]);
+  console.log(tagList[2]);
+
+  for (let i = 0; i < htmlElementsToDisplay.length; i++) {
+    const el1 = htmlElementsToDisplay[i];
+
+    for (let j = 0; j < tagList.length; j++) {
+      const el2 = tagList[j];
+
+      if (el1.name === el2.name) {
+        el1.description = el2.description;
+        break;
+      }
+    }
+  }
+  console.log(htmlElementsToDisplay);
+}
