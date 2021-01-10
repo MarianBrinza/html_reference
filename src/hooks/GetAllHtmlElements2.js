@@ -21,12 +21,10 @@ const GetAllHtmlElements2 = () => {
                         name
                         nameDescription
                         selfClosing
-                        url
                         attributes {
                             description
                             name
                             value
-                            url
                         }
                     }
                 }
