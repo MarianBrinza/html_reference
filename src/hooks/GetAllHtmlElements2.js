@@ -19,7 +19,7 @@ const GetAllHtmlElements2 = () => {
                         html5
                         inline
                         name
-                        name2
+                        nameDescription
                         selfClosing
                         url
                         attributes {
