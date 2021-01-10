@@ -13,6 +13,7 @@ import { graphql } from 'gatsby';
 import { tags } from '../resources/tags';
 import { element } from 'prop-types';
 import GetAllHtmlElements2 from '../hooks/GetAllHtmlElements2';
+import { aa } from '../resources/tagList';
 
 const IndexPage = () => {
 
