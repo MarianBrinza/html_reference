@@ -8,6 +8,7 @@ import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import jsx from 'react-syntax-highlighter/dist/esm/languages/prism/jsx';
 import { materialDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import CodeBlock from '../codeBlock/codeBlock';
+import Attributes from '../attributes/attributes';
 
 
 SyntaxHighlighter.registerLanguage('jsx', jsx);
@@ -41,7 +42,13 @@ const SelectionDetails = () => {
     console.log('selection-details width = ', parentWidth);
   }
 
-  const htmlStyle = { margin: '0 0 20px 0', borderRadius: '5px', fontSize: '16px' };
+
+  const htmlStyle = {
+    margin: '0 0 20px 0',
+    borderRadius: '5px',
+    fontFamily: 'monospace !important',
+    fontSize: '15px'
+  };
 
   return (
     <div id='selection-details' className={styles.selectionDetailsComp}>
@@ -62,9 +69,16 @@ const SelectionDetails = () => {
           <p>{description}</p>
 
           <h2>Example Code</h2>
-
           <p>{exampleText}</p>
           <CodeBlock customStyle={htmlStyle} exampleCode={exampleCode} language={'xml'} />
+
+          <h2>Attributes</h2>
+          {
+            attributes.length > 0 ?
+              <Attributes attributes={attributes} />
+              :
+              <p>Not applicable</p>
+          }
 
           <h2>Default style</h2>
           {
