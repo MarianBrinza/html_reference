@@ -41,8 +41,7 @@ const SelectionDetails = () => {
     console.log('selection-details width = ', parentWidth);
   }
 
-
-  const htmlStyle = { margin: '0 0 20px 0', borderRadius: '5px' };
+  const htmlStyle = { margin: '0 0 20px 0', borderRadius: '5px', fontSize: '16px' };
 
   return (
     <div id='selection-details' className={styles.selectionDetailsComp}>
@@ -68,7 +67,12 @@ const SelectionDetails = () => {
           <CodeBlock customStyle={htmlStyle} exampleCode={exampleCode} language={'xml'} />
 
           <h2>Default style</h2>
-          <CodeBlock customStyle={htmlStyle} exampleCode={defaultCssCode} language={'css'} />
+          {
+            defaultCssCode ?
+              <CodeBlock customStyle={htmlStyle} exampleCode={defaultCssCode} language={'css'} />
+              :
+              <p>Not applicable</p>
+          }
 
           <h2>Definition and Usage</h2>
           <p>{definition}</p>
