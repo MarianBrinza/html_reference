@@ -1,10 +1,76 @@
 @import "src/styles/styleVariables";
 
 .selection-details-comp {
-  padding-left: 20px;
-  margin-bottom: 20px;
-  background-color: chocolate;
+  padding: 5px 15px;
+  margin: 0 0 20px 20px;
   flex: 1;
+  background-color: $white;
+  border: 1px solid $borderColor;
+  border-radius: 5px;
+  color: $textColor2;
+  //font-family: "Open Sans", serif;
+  //font-family: Ubuntu, serif;
+  //
+  //// this is required for pre tag from syntax highlighter not to overflow
+  min-width: 0;
+
+  h1 {
+    color: $headingBlack2;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 15px;
+
+  }
+
+  h2 {
+    font-size: 25px;
+    margin: 15px 0;
+  }
+
+
+  p {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 10px 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    border-radius: 5px;
+    overflow: hidden;
+
+    thead {
+      vertical-align: middle;
+
+      tr {
+        background-color: #36304a;
+
+        th {
+          font-size: 19px;
+          color: #fff;
+          line-height: 1.2;
+          padding: 10px;
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        color: gray;
+        line-height: 1.2;
+        //background-color: white;
+        background-color: #eceaea;
+
+
+        td {
+          padding: 10px;
+          font-size: 19px;
+          text-align: center;
+        }
+      }
+    }
+  }
+
 }
 
 #toggle-btn {
