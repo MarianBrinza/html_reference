@@ -19,7 +19,6 @@ const GetAllHtmlElements2 = () => {
                         html5
                         inline
                         name
-                        nameDescription
                         selfClosing
                         attributes {
                             description
