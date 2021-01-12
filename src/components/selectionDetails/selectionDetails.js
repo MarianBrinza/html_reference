@@ -31,7 +31,6 @@ const SelectionDetails = () => {
     html5,
     inline,
     name,
-    nameDescription,
     selfClosing,
     attributes
   } = selectedElement;
