@@ -26,7 +26,8 @@ const Table = ({ htmlElementsToDisplay }) => {
       {/* table header */}
       <div className={styles.tableHeader}>
         <span>Tag</span>
-        <span>inline/block</span>
+        <span>inline /
+          block</span>
         <span>html5</span>
         <span>self closing</span>
       </div>
