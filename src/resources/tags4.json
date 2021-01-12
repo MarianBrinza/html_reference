@@ -351,7 +351,7 @@
     "exampleCode": "<ul><li>User <bdi>hrefs</bdi>: 60 points</li><li>User <bdi>jdoe</bdi>: 80 points</li><li>User <bdi>إيان</bdi>: 90 points</li></ul>",
     "exampleText": "Isolate the usernames from the surrounding text-direction settings:",
     "globalAttrib": "The <bdi> tag also supports the Global Attributes in HTML.",
-    "globalEvents": "The <bdi> tag also supports the Event Attributes in HTML.❮ PreviousComplete HTML ReferenceNext ❯",
+    "globalEvents": "The <bdi> tag also supports the Event Attributes in HTML.",
     "url": "https://www.w3schools.com/tags/tag_bdi.asp",
     "attributes": [],
     "description": "Isolates a part of text that might be formatted in a different direction from other text outside it"
@@ -459,7 +459,7 @@
     "definition": "The <data> tag is used to add a machine-readable translation of a given content.This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser.Tip: If the content is time- or date-related, use the <time> element instead.",
     "exampleCode": "<ul> <li><data value=\"21053\">Cherry   Tomato</data></li> <li><data value=\"21054\">Beef   Tomato</data></li> <li><data value=\"21055\">Snack   Tomato</data></li></ul> ",
     "exampleText": "The following example displays product names but also associates each name with a product number:",
-    "globalAttrib": "The <data> tag also supports the Global Attributes in HTML.  ❮ PreviousComplete HTML Reference  Next ❯",
+    "globalAttrib": "The <data> tag also supports the Global Attributes in HTML.",
     "globalEvents": "",
     "url": "https://www.w3schools.com/tags/tag_data.asp",
     "attributes": [
@@ -2818,7 +2818,7 @@
     "exampleCode": "<p>To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.</p>",
     "exampleText": "A text with word break opportunities:",
     "globalAttrib": "The <wbr> tag also supports the Global Attributes in HTML.",
-    "globalEvents": "The <wbr> tag also supports the Event Attributes in HTML.❮ PreviousComplete HTML ReferenceNext ❯",
+    "globalEvents": "The <wbr> tag also supports the Event Attributes in HTML.",
     "url": "https://www.w3schools.com/tags/tag_wbr.asp",
     "attributes": [],
     "description": "Defines a possible line-break"
@@ -2908,7 +2908,7 @@
     "exampleCode": "<ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>",
     "exampleText": "A ruby annotation:",
     "globalAttrib": "The <ruby> tag also supports the Global Attributes in HTML.",
-    "globalEvents": "The <ruby> tag also supports the Event Attributes in HTML.❮ PreviousComplete HTML ReferenceNext ❯",
+    "globalEvents": "The <ruby> tag also supports the Event Attributes in HTML.",
     "url": "https://www.w3schools.com/tags/tag_ruby.asp",
     "attributes": [],
     "description": "Defines a ruby annotation (for East Asian typography)"
