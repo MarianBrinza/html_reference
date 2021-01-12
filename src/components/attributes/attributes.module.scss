@@ -1,0 +1,29 @@
+@import "src/styles/styleVariables";
+
+.attributes-comp {
+  color: red;
+
+  section {
+    overflow-x: auto;
+
+    table {
+      tbody {
+        tr {
+          td {
+            font-family: monospace;
+            font-size: 15px;
+            color: $textColor2;
+          }
+        }
+
+        tr:nth-child(odd) {
+          background-color: $tableRowOdd;
+        }
+
+        tr:nth-child(even) {
+          background-color: $tableRowEven;
+        }
+      }
+    }
+  }
+}
