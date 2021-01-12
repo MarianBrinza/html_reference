@@ -7,6 +7,7 @@ import { toggle } from '../../resources/util';
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import jsx from 'react-syntax-highlighter/dist/esm/languages/prism/jsx';
 import { materialDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import CodeBlock from '../codeBlock/codeBlock';
 
 
 SyntaxHighlighter.registerLanguage('jsx', jsx);
@@ -40,6 +41,9 @@ const SelectionDetails = () => {
     console.log('selection-details width = ', parentWidth);
   }
 
+
+  const htmlStyle = { margin: '0 0 20px 0', borderRadius: '5px' };
+
   return (
     <div id='selection-details' className={styles.selectionDetailsComp}>
       {Object.keys(selectedElement).length > 0 && (
@@ -59,19 +63,12 @@ const SelectionDetails = () => {
           <p>{description}</p>
 
           <h2>Example Code</h2>
+
           <p>{exampleText}</p>
-          <SyntaxHighlighter language='xml' style={materialDark}
-                             customStyle={{
-                               margin: '0 0 20px 0',
-                               borderRadius: '5px'
-                             }}>
-            {exampleCode}
-          </SyntaxHighlighter>
+          <CodeBlock customStyle={htmlStyle} exampleCode={exampleCode} language={'xml'} />
 
           <h2>Default style</h2>
-          <SyntaxHighlighter language='css' style={materialDark}>
-            {defaultCssCode}
-          </SyntaxHighlighter>
+          <CodeBlock customStyle={htmlStyle} exampleCode={defaultCssCode} language={'css'} />
 
           <h2>Definition and Usage</h2>
           <p>{definition}</p>
