@@ -55,36 +55,29 @@ const SelectionDetails = () => {
             Close me!
           </button>
 
-
           <h1 className={styles.title}>The {name} tag</h1>
+          <p>{description}</p>
 
-
-          <p>Description: {description}</p>
-
-
-          <p>Example Code: {exampleText}</p>
+          <h2>Example Code</h2>
+          <p>{exampleText}</p>
           <SyntaxHighlighter language='xml' style={materialDark}
                              customStyle={{
-                               margin: '20px 0',
+                               margin: '0 0 20px 0',
                                borderRadius: '5px'
                              }}>
             {exampleCode}
           </SyntaxHighlighter>
 
-          {/* default css style*/}
-          <p>{defaultCssText}</p>
+          <h2>Default style</h2>
           <SyntaxHighlighter language='css' style={materialDark}>
             {defaultCssCode}
           </SyntaxHighlighter>
 
-
           <h2>Definition and Usage</h2>
           <p>{definition}</p>
 
-
           <h2>Global attributes:</h2>
           <p>{globalAttrib}</p>
-
 
           <h2>Global events:</h2>
           <p>{globalEvents}</p>
