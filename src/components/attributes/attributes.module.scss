@@ -23,6 +23,10 @@
         tr:nth-child(even) {
           background-color: $tableRowEven;
         }
+
+        tr:last-child {
+          border-bottom: 1px solid $lightGrey;
+        }
       }
     }
   }
