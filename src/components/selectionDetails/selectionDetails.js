@@ -91,11 +91,11 @@ const SelectionDetails = () => {
           <h2>Definition and Usage</h2>
           <p>{definition}</p>
 
-          <h2>Global attributes:</h2>
-          <p>{globalAttrib}</p>
+          {/*<h2>Global attributes:</h2>*/}
+          {/*<p>{globalAttrib}</p>*/}
 
-          <h2>Global events:</h2>
-          <p>{globalEvents}</p>
+          {/*<h2>Global events:</h2>*/}
+          {/*<p>{globalEvents}</p>*/}
 
           <table>
             <thead>
