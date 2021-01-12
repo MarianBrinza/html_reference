@@ -26,7 +26,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-prismjs`
+          // `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              aliases:{sh: "bash", js:"javascript"},
+              showLineNumbers: true,
+            }
+          }
         ]
       }
     },
@@ -47,8 +54,21 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
-        extensions: [`.mdx`, `.md`],
-      },
+        extensions: [`.mdx`, `.md`]
+      }
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `B612\:400,400i,700, 700i`,
+          `Lato\:400,400i,700, 700i`,
+          `Open Sans\:400,400i,700, 700i`,
+          `Roboto\:300,300i, 400,400i,500, 500i`,
+          `Ubuntu\:300,300i, 400,400i,500, 500i`
+        ],
+        display: 'swap'
+      }
     },
     // {
     //   resolve: `gatsby-plugin-mdx`,
@@ -59,9 +79,9 @@ module.exports = {
     //      }
     //   }
     // }
-      // this (optional) plugin enables Progressive Web App + Offline functionality
-      // To learn more, visit: https://gatsby.dev/offline
-      `gatsby-plugin-offline`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    `gatsby-plugin-offline`,
     'gatsby-plugin-sass'
   ]
 };
