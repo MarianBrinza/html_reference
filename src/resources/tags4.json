@@ -1,14 +1,13 @@
 [
   {
     "name": "<!-- -->",
-    "nameDescription": "comment",
     "inline": "true",
     "block": "false",
     "html5": "false",
     "selfClosing": "",
     "defaultCssCode": "",
     "defaultCssText": "",
-    "definition": "The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.",
+    "definition": "The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers. <br />You can use comments to explain your code, which can help you when you edit the source code at a later date. This is especially useful if you have a lot of code.",
     "exampleCode": "<!-- This is a comment. -->",
     "exampleText": "An HTML comment:",
     "globalAttrib": "None",
@@ -19,7 +18,6 @@
   },
   {
     "name": "<a>",
-    "nameDescription": "<a>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -92,7 +90,6 @@
   },
   {
     "name": "<abbr>",
-    "nameDescription": "<abbr>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -110,7 +107,6 @@
   },
   {
     "name": "<!DOCTYPE>",
-    "nameDescription": "",
     "inline": "",
     "block": "",
     "html5": "",
@@ -128,7 +124,6 @@
   },
   {
     "name": "<address>",
-    "nameDescription": "<address>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -146,7 +141,6 @@
   },
   {
     "name": "<article>",
-    "nameDescription": "<article>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -164,7 +158,6 @@
   },
   {
     "name": "<aside>",
-    "nameDescription": "<aside>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -182,7 +175,6 @@
   },
   {
     "name": "<area>",
-    "nameDescription": "<area>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -267,7 +259,6 @@
   },
   {
     "name": "<audio>",
-    "nameDescription": "<audio>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -322,7 +313,6 @@
   },
   {
     "name": "<b>",
-    "nameDescription": "<b>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -340,7 +330,6 @@
   },
   {
     "name": "<bdi>",
-    "nameDescription": "<bdi>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -358,7 +347,6 @@
   },
   {
     "name": "<dfn> ",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -375,7 +363,6 @@
   },
   {
     "name": "<dl>",
-    "nameDescription": "<dl>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -393,7 +380,6 @@
   },
   {
     "name": "<base>",
-    "nameDescription": "<base>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -424,7 +410,6 @@
   },
   {
     "name": "<bdo>",
-    "nameDescription": "<bdo>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -449,7 +434,6 @@
   },
   {
     "name": "<data>",
-    "nameDescription": "<data>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -474,7 +458,6 @@
   },
   {
     "name": "<em> ",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -491,7 +474,6 @@
   },
   {
     "name": "<colgroup>",
-    "nameDescription": "<colgroup>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -516,7 +498,6 @@
   },
   {
     "name": "<cite>",
-    "nameDescription": "<cite>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -534,7 +515,6 @@
   },
   {
     "name": "<col>",
-    "nameDescription": "<col>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -559,7 +539,6 @@
   },
   {
     "name": "<br>",
-    "nameDescription": "<br>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -577,7 +556,6 @@
   },
   {
     "name": "<header>",
-    "nameDescription": "<header>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -595,7 +573,6 @@
   },
   {
     "name": "<code> ",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -612,7 +589,6 @@
   },
   {
     "name": "<blockquote>",
-    "nameDescription": "<blockquote>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -637,7 +613,6 @@
   },
   {
     "name": "<dt>",
-    "nameDescription": "<dt>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -655,7 +630,6 @@
   },
   {
     "name": "<figcaption>",
-    "nameDescription": "<figcaption>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -673,7 +647,6 @@
   },
   {
     "name": "<hr>",
-    "nameDescription": "<hr>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -691,7 +664,6 @@
   },
   {
     "name": "<fieldset>",
-    "nameDescription": "<fieldset>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -728,7 +700,6 @@
   },
   {
     "name": "<head>",
-    "nameDescription": "<head>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -746,7 +717,6 @@
   },
   {
     "name": "<caption>",
-    "nameDescription": "<caption>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -764,7 +734,6 @@
   },
   {
     "name": "<h1><h6>",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -781,7 +750,6 @@
   },
   {
     "name": "<canvas>",
-    "nameDescription": "<canvas>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -812,7 +780,6 @@
   },
   {
     "name": "<form>",
-    "nameDescription": "<form>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -885,7 +852,6 @@
   },
   {
     "name": "<embed>",
-    "nameDescription": "<embed>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -928,7 +894,6 @@
   },
   {
     "name": "<div>",
-    "nameDescription": "<div>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -946,7 +911,6 @@
   },
   {
     "name": "<ins>",
-    "nameDescription": "<ins>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -977,7 +941,6 @@
   },
   {
     "name": "<body>",
-    "nameDescription": "<body>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -995,7 +958,6 @@
   },
   {
     "name": "<label>",
-    "nameDescription": "<label>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -1026,7 +988,6 @@
   },
   {
     "name": "<img>",
-    "nameDescription": "<img>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -1117,7 +1078,6 @@
   },
   {
     "name": "<iframe>",
-    "nameDescription": "<iframe>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1202,7 +1162,6 @@
   },
   {
     "name": "<input>",
-    "nameDescription": "<input>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -1407,7 +1366,6 @@
   },
   {
     "name": "<li>",
-    "nameDescription": "<li>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1432,7 +1390,6 @@
   },
   {
     "name": "<kbd> ",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -1449,7 +1406,6 @@
   },
   {
     "name": "<legend>",
-    "nameDescription": "<legend>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1467,7 +1423,6 @@
   },
   {
     "name": "<i>",
-    "nameDescription": "<i>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -1485,7 +1440,6 @@
   },
   {
     "name": "<ol>",
-    "nameDescription": "<ol>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1522,7 +1476,6 @@
   },
   {
     "name": "<object>",
-    "nameDescription": "<object>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -1589,7 +1542,6 @@
   },
   {
     "name": "<map>",
-    "nameDescription": "<map>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -1614,7 +1566,6 @@
   },
   {
     "name": "<meta>",
-    "nameDescription": "<meta>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1657,7 +1608,6 @@
   },
   {
     "name": "<meter>",
-    "nameDescription": "<meter>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -1718,7 +1668,6 @@
   },
   {
     "name": "<option>",
-    "nameDescription": "<option>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1761,7 +1710,6 @@
   },
   {
     "name": "<dialog>",
-    "nameDescription": "<dialog>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1786,7 +1734,6 @@
   },
   {
     "name": "<noscript>",
-    "nameDescription": "<noscript>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1804,7 +1751,6 @@
   },
   {
     "name": "<figure>",
-    "nameDescription": "<figure>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -1822,7 +1768,6 @@
   },
   {
     "name": "<nav>",
-    "nameDescription": "<nav>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -1840,7 +1785,6 @@
   },
   {
     "name": "<optgroup>",
-    "nameDescription": "<optgroup>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1871,7 +1815,6 @@
   },
   {
     "name": "<picture>",
-    "nameDescription": "<picture>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1889,7 +1832,6 @@
   },
   {
     "name": "<p>",
-    "nameDescription": "<p>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1907,7 +1849,6 @@
   },
   {
     "name": "<footer>",
-    "nameDescription": "<footer>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -1925,7 +1866,6 @@
   },
   {
     "name": "<main>",
-    "nameDescription": "<main>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -1943,7 +1883,6 @@
   },
   {
     "name": "<mark>",
-    "nameDescription": "<mark>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -1961,7 +1900,6 @@
   },
   {
     "name": "<link>",
-    "nameDescription": "<link>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2034,7 +1972,6 @@
   },
   {
     "name": "<output>",
-    "nameDescription": "<output>",
     "inline": "true",
     "block": "false",
     "html5": "true",
@@ -2071,7 +2008,6 @@
   },
   {
     "name": "<param>",
-    "nameDescription": "<param>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2102,7 +2038,6 @@
   },
   {
     "name": "<button>",
-    "nameDescription": "<button>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2187,7 +2122,6 @@
   },
   {
     "name": "<html>",
-    "nameDescription": "<html>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2212,7 +2146,6 @@
   },
   {
     "name": "<del>",
-    "nameDescription": "<del>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2243,7 +2176,6 @@
   },
   {
     "name": "<datalist>",
-    "nameDescription": "<datalist>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2261,7 +2193,6 @@
   },
   {
     "name": "<details>",
-    "nameDescription": "<details>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2286,7 +2217,6 @@
   },
   {
     "name": "<dd>",
-    "nameDescription": "<dd>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2304,7 +2234,6 @@
   },
   {
     "name": "<progress>",
-    "nameDescription": "<progress>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2335,7 +2264,6 @@
   },
   {
     "name": "<pre>",
-    "nameDescription": "<pre>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2353,7 +2281,6 @@
   },
   {
     "name": "<section>",
-    "nameDescription": "<section>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2371,7 +2298,6 @@
   },
   {
     "name": "<rp>",
-    "nameDescription": "<rp>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2389,7 +2315,6 @@
   },
   {
     "name": "<script>",
-    "nameDescription": "<script>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2456,7 +2381,6 @@
   },
   {
     "name": "<q>",
-    "nameDescription": "<q>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2481,7 +2405,6 @@
   },
   {
     "name": "<select>",
-    "nameDescription": "<select>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2542,7 +2465,6 @@
   },
   {
     "name": "<source>",
-    "nameDescription": "<source>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2591,7 +2513,6 @@
   },
   {
     "name": "<svg>",
-    "nameDescription": "<svg>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2609,7 +2530,6 @@
   },
   {
     "name": "<strong> ",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -2626,7 +2546,6 @@
   },
   {
     "name": "<tfoot>",
-    "nameDescription": "<tfoot>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2644,7 +2563,6 @@
   },
   {
     "name": "<thead>",
-    "nameDescription": "<thead>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2662,7 +2580,6 @@
   },
   {
     "name": "<td>",
-    "nameDescription": "<td>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2699,7 +2616,6 @@
   },
   {
     "name": "<samp> ",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -2716,7 +2632,6 @@
   },
   {
     "name": "<video>",
-    "nameDescription": "<video>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2789,7 +2704,6 @@
   },
   {
     "name": "<tr>",
-    "nameDescription": "<tr>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2807,7 +2721,6 @@
   },
   {
     "name": "<wbr>",
-    "nameDescription": "<wbr>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2825,7 +2738,6 @@
   },
   {
     "name": "<small>",
-    "nameDescription": "<small>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2843,7 +2755,6 @@
   },
   {
     "name": "<s>",
-    "nameDescription": "<s>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2861,7 +2772,6 @@
   },
   {
     "name": "<tbody>",
-    "nameDescription": "<tbody>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2879,7 +2789,6 @@
   },
   {
     "name": "<span>",
-    "nameDescription": "<span>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2897,7 +2806,6 @@
   },
   {
     "name": "<ruby>",
-    "nameDescription": "<ruby>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -2915,7 +2823,6 @@
   },
   {
     "name": "<sub>",
-    "nameDescription": "<sub>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2933,7 +2840,6 @@
   },
   {
     "name": "<sup>",
-    "nameDescription": "<sup>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -2951,7 +2857,6 @@
   },
   {
     "name": "<title>",
-    "nameDescription": "<title>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -2969,7 +2874,6 @@
   },
   {
     "name": "<time>",
-    "nameDescription": "<time>",
     "inline": "true",
     "block": "false",
     "html5": "true",
@@ -2994,7 +2898,6 @@
   },
   {
     "name": "<table>",
-    "nameDescription": "<table>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -3012,7 +2915,6 @@
   },
   {
     "name": "<var> ",
-    "nameDescription": null,
     "inline": null,
     "block": null,
     "html5": null,
@@ -3029,7 +2931,6 @@
   },
   {
     "name": "<rt>",
-    "nameDescription": "<rt>",
     "inline": "false",
     "block": "true",
     "html5": "true",
@@ -3047,7 +2948,6 @@
   },
   {
     "name": "<style>",
-    "nameDescription": "<style>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -3078,7 +2978,6 @@
   },
   {
     "name": "<ul>",
-    "nameDescription": "<ul>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -3096,7 +2995,6 @@
   },
   {
     "name": "<u>",
-    "nameDescription": "<u>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -3114,7 +3012,6 @@
   },
   {
     "name": "<template>",
-    "nameDescription": "<template>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -3132,7 +3029,6 @@
   },
   {
     "name": "<textarea>",
-    "nameDescription": "<textarea>",
     "inline": "true",
     "block": "false",
     "html5": "false",
@@ -3223,7 +3119,6 @@
   },
   {
     "name": "<th>",
-    "nameDescription": "<th>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -3272,7 +3167,6 @@
   },
   {
     "name": "<track>",
-    "nameDescription": "<track>",
     "inline": "false",
     "block": "true",
     "html5": "false",
@@ -3321,7 +3215,6 @@
   },
   {
     "name": "<summary>",
-    "nameDescription": "<summary>",
     "inline": "false",
     "block": "true",
     "html5": "true",
