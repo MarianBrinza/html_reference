@@ -56,7 +56,7 @@
         "value": "media_query"
       },
       {
-        "description": "Specifies a space-separated list of URLs to which, when the link is     followed, post requests with the body ping will be sent by the browser (in     the background). Typically used for tracking.",
+        "description": "Specifies a space-separated list of URLs to which, when the link is followed, post requests with the body ping will be sent by the browser (in the background). Typically used for tracking.",
         "name": "ping",
         "url": "https://www.w3schools.com/tags/att_a_ping.asp",
         "value": "list_of_URLs"
@@ -65,19 +65,19 @@
         "description": "Specifies which referrer information to send with the link",
         "name": "referrerpolicy",
         "url": "https://www.w3schools.com/tags/att_a_referrepolicy.asp",
-        "value": "no-referrer no-referrer-when-downgrade origin     origin-when-cross-origin same-origin strict-origin-when-cross-origin unsafe-url"
+        "value": "no-referrer no-referrer-when-downgrade origin origin-when-cross-origin same-origin strict-origin-when-cross-origin unsafe-url"
       },
       {
         "description": "Specifies the relationship between the current document and the linked document",
         "name": "rel",
         "url": "https://www.w3schools.com/tags/att_a_rel.asp",
-        "value": "alternate  author  bookmark external  help  license  next  nofollow  noreferrer noopener  prev  search  tag"
+        "value": "alternate author bookmark external help license next nofollow noreferrer noopener prev search tag"
       },
       {
         "description": "Specifies where to open the linked document",
         "name": "target",
         "url": "https://www.w3schools.com/tags/att_a_target.asp",
-        "value": "_blank       _parent       _self       _top"
+        "value": "_blank _parent _self _top"
       },
       {
         "description": "Specifies the media type of the linked document",
@@ -96,7 +96,7 @@
     "selfClosing": "false",
     "defaultCssCode": "abbr {  display: inline;} ",
     "defaultCssText": "Most browsers will display the <abbr> element with the following default values:",
-    "definition": "The <abbr> tag defines an abbreviation or an acronym, like \"HTML\", \"CSS\", \"Mr.\", \"Dr.\", \"ASAP\", \"ATM\".Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.",
+    "definition": "The <abbr> tag defines an abbreviation or an acronym, like \"HTML\", \"CSS\", \"Mr.\", \"Dr.\", \"ASAP\", \"ATM\". Tip: Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.",
     "exampleCode": "The <abbr title=\"World Health Organization\">WHO</abbr> was founded in 1948.",
     "exampleText": "An abbreviation is marked up as follows:",
     "globalAttrib": "The <abbr> tag supports the Global Attributes in HTML.",
