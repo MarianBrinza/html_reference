@@ -48,3 +48,20 @@ export const toggle = (elementId) => {
 
 
 };
+
+export const toggleActiveClass = (event, previousSelectedElement) => {
+
+  const classList = event.target.classList;
+  // remove the class from the previous selected element
+  if (Object.keys(previousSelectedElement).length !== 0) {
+    document.querySelector('div.selectedRow').classList.remove('selectedRow');
+  }
+
+  // add the class to the selected element
+  if (classList.length === 0) {
+    event.target.parentElement.classList.add('selectedRow');
+  } else {
+    event.target.classList.add('selectedRow');
+  }
+
+};
