@@ -17,7 +17,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "a:link, a:visited { color: (internal value); text-decoration: underline;     cursor: auto;} a:link:active, a:visited:active {  color: (internal value);} ",
+    "defaultCssCode": "a:link, a:visited { color: (internal value); text-decoration: underline; cursor: auto;} a:link:active, a:visited:active { color: (internal value);} ",
     "defaultCssText": "Most browsers will display the <a> element with the following default values:",
     "definition": "The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.",
     "description": "Defines a hyperlink",
@@ -79,7 +79,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "abbr {  display: inline;} ",
+    "defaultCssCode": "abbr { display: inline;} ",
     "defaultCssText": "Most browsers will display the <abbr> element with the following default values:",
     "definition": "The <abbr> tag defines an abbreviation or an acronym, like \"HTML\", \"CSS\", \"Mr. \", \"Dr.\", \"ASAP\", \"ATM\". Use the global title attribute to show the description for the abbreviation/acronym when you mouse over the element.",
     "description": "Defines an abbreviation or an acronym",
@@ -111,11 +111,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "address {  display: block; font-style: italic;} ",
+    "defaultCssCode": "address { display: block; font-style: italic;} ",
     "defaultCssText": "Most browsers will display the <address> element with the following default values:",
     "definition": "The <address> tag defines the contact information for the author/owner of a document or an article. The contact information can be an email address, URL, physical address, phone number, social media handle, etc. The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.",
     "description": "Defines contact information for the author/owner of a document",
-    "exampleCode": "<address> Written by <a href=\"mailto:webmaster@example.com\">Jon Doe</a>.<br>  Visit us at:<br> Example.com<br> Box 564, Disneyland<br> USA </address>",
+    "exampleCode": "<address> Written by <a href=\"mailto:webmaster@example.com\">Jon Doe</a>.<br> Visit us at:<br> Example.com<br> Box 564, Disneyland<br> USA </address>",
     "exampleText": "Contact information for Example.com:",
     "globalAttrib": "The <address> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <address> tag also supports the Event Attributes in HTML.",
@@ -127,9 +127,9 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "article {  display: block;} ",
+    "defaultCssCode": "article { display: block;} ",
     "defaultCssText": "Most browsers will display the <article> element with the following default values:",
-    "definition": "The <article> tag specifies independent, self-contained content. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site. Potential sources for the <article> element: Forum post  Blog post  News story.",
+    "definition": "The <article> tag specifies independent, self-contained content. An article should make sense on its own and it should be possible to distribute it independently from the rest of the site. Potential sources for the <article> element: Forum post Blog post News story.",
     "description": "Defines an article",
     "exampleCode": "<article>\n\t<h2>Bacon ipsum</h2>\n\t<p>Bacon ipsum was created in the spring of...</p>\n</article>",
     "exampleText": "Three articles with independent, self-contained content:",
@@ -143,7 +143,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "aside {  display: block;} ",
+    "defaultCssCode": "aside { display: block;} ",
     "defaultCssText": "Most browsers will display the <aside> element with the following default values:",
     "definition": "The <aside> tag defines some content aside from the content it is placed in. The aside content should be indirectly related to the surrounding content. The <aside> content is often placed as a sidebar in a document.",
     "description": "Defines content aside from the page content",
@@ -159,7 +159,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "area {  display: none;} ",
+    "defaultCssCode": "area { display: none;} ",
     "defaultCssText": "Most browsers will display the <area> element with the following default values:",
     "definition": "The <area> tag defines an area inside an image map (an image map is an image with clickable areas). <area> elements are always nested inside a <map> tag. Note: The usemap attribute in <img> is associated with the <map> element's name attribute, and creates a relationship between the image and the map.",
     "description": "Defines an area inside an image map",
@@ -267,7 +267,7 @@
       {
         "description": "Specifies if and how the author thinks the audio should be loaded when the page loads",
         "name": "preload",
-        "value": "auto  metadata  none"
+        "value": "auto metadata none"
       },
       {
         "description": "Specifies the URL of the audio file",
@@ -278,7 +278,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "b {  font-weight: bold;} ",
+    "defaultCssCode": "b { font-weight: bold;} ",
     "defaultCssText": "Most browsers will display the <b> element with the following default values:",
     "definition": "The <b> tag specifies bold text without any extra importance.",
     "description": "Defines bold text",
@@ -326,11 +326,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "dl { display: block; margin-top: 1em; margin-bottom: 1em;     margin-left: 0; margin-right: 0;} ",
+    "defaultCssCode": "dl { display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;} ",
     "defaultCssText": "Most browsers will display the <dl> element with the following default values:",
     "definition": "The <dl> tag defines a description list. The <dl> tag is used in conjunction with <dt> (defines terms/names) and <dd> (describes each term/name).",
     "description": "Defines a description list",
-    "exampleCode": "<dl>  <dt>Coffee</dt> <dd>Black hot drink</dd>  <dt>Milk</dt> <dd>White cold drink</dd> </dl>",
+    "exampleCode": "<dl> <dt>Coffee</dt> <dd>Black hot drink</dd> <dt>Milk</dt> <dd>White cold drink</dd> </dl>",
     "exampleText": "A description list, with terms and descriptions:",
     "globalAttrib": "The <dl> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <dl> tag also supports the Event Attributes in HTML.",
@@ -346,7 +346,7 @@
     "defaultCssText": "None.",
     "definition": "The <base> tag specifies the base URL and/or target for all relative URLs in a document. The <base> tag must have either an href or a target attribute present, or both. There can only be one single <base> element in a document, and it must be inside the <head> element.",
     "description": "Specifies the base URL/target for all relative URLs in a document",
-    "exampleCode": "<head>  <base href=\"https://www.w3schools.com/\" target=\"_blank\"> </head><body> <img src=\"images/stickman.gif\" width=\"24\" height=\"39\" alt=\"Stickman\"> <a href=\"tags/tag_base.asp\">HTML base Tag</a> </body>",
+    "exampleCode": "<head> <base href=\"https://www.w3schools.com/\" target=\"_blank\"> </head><body> <img src=\"images/stickman.gif\" width=\"24\" height=\"39\" alt=\"Stickman\"> <a href=\"tags/tag_base.asp\">HTML base Tag</a> </body>",
     "exampleText": "Specify a default URL and a default target for all links on a page:",
     "globalAttrib": "The <base> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <base> tag does not support any event attributes.",
@@ -395,7 +395,7 @@
     "defaultCssText": "",
     "definition": "The <data> tag is used to add a machine-readable translation of a given content. This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser. If the content is time or date related, use the <time> element instead.",
     "description": "Adds a machine-readable translation of a given content",
-    "exampleCode": "<ul> <li><data value=\"21053\">Cherry   Tomato</data></li> <li><data value=\"21054\">Beef   Tomato</data></li> <li><data value=\"21055\">Snack   Tomato</data></li></ul> ",
+    "exampleCode": "<ul> <li><data value=\"21053\">Cherry Tomato</data></li> <li><data value=\"21054\">Beef Tomato</data></li> <li><data value=\"21055\">Snack Tomato</data></li></ul> ",
     "exampleText": "The following example displays product names but also associates each name with a product number:",
     "globalAttrib": "The <data> tag also supports the Global Attributes in HTML.",
     "globalEvents": "",
@@ -413,11 +413,11 @@
   },
   {
     "block": null,
-    "defaultCssCode": "em {  font-style: italic;} ",
+    "defaultCssCode": "em { font-style: italic;} ",
     "defaultCssText": "Most browsers will display the <em> element with the following default values:",
     "definition": "The <em> tag is used to define emphasized text. The content inside is typically displayed in italic. A screen reader will pronounce the words in <em> with an emphasis, using verbal stress.",
     "description": null,
-    "exampleCode": "<p>You <em>have</em> to hurry up!</p><p>We <em>cannot</em> live like   this.</p>",
+    "exampleCode": "<p>You <em>have</em> to hurry up!</p><p>We <em>cannot</em> live like this.</p>",
     "exampleText": "Mark up emphasized text in a document:",
     "globalAttrib": "The <em> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <em> tag also supports the Event Attributes in HTML.",
@@ -451,7 +451,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "cite {  font-style: italic;} ",
+    "defaultCssCode": "cite { font-style: italic;} ",
     "defaultCssText": "Most browsers will display the <cite> element with the following default values:",
     "definition": "The <cite> tag defines the title of a creative work (e. g. a book, a poem, a song, a movie, a painting, a sculpture, etc. ). Note: A person's name is not the title of a work. The text in the <cite> element usually renders in italic.",
     "description": "Defines the title of a work",
@@ -467,7 +467,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "col {  display: table-column;} ",
+    "defaultCssCode": "col { display: table-column;} ",
     "defaultCssText": "Most browsers will display the <col> element with the following default values:",
     "definition": "The <col> tag specifies column properties for each column within a <colgroup> element. The <col> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.",
     "description": "Specifies column properties for each column within a <colgroup> element",
@@ -507,9 +507,9 @@
     "block": "true",
     "defaultCssCode": "header { display: block;}",
     "defaultCssText": "Most browsers will display the <header> element with the following default values:",
-    "definition": "The <header> element represents a container for introductory content or a set of navigational links. A <header> element typically contains: one or more heading elements (<h1> - <h6>)  logo or icon  authorship informationNote: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.",
+    "definition": "The <header> element represents a container for introductory content or a set of navigational links. A <header> element typically contains: one or more heading elements (<h1> - <h6>) logo or icon authorship informationNote: You can have several <header> elements in one HTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.",
     "description": "Defines a header for a document or section",
-    "exampleCode": "<article> <header>  <h1>A heading here</h1> <p>Posted by John     Doe</p> <p>Some additional information here</p> </header>  <p>Lorem Ipsum dolor set amet....</p> </article>",
+    "exampleCode": "<article> <header> <h1>A heading here</h1> <p>Posted by John Doe</p> <p>Some additional information here</p> </header> <p>Lorem Ipsum dolor set amet....</p> </article>",
     "exampleText": "A header for an <article>:",
     "globalAttrib": "The <header> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <header> tag also supports the Event Attributes in HTML.",
@@ -525,7 +525,7 @@
     "defaultCssText": "Most browsers will display the <code> element with the following default values:",
     "definition": "The <code> tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font. Similar tags: <samp> - defines sample output from a computer program; <kbd> - defines keyboard input; <var> - defines a variable; <pre> - defines preformatted text.",
     "description": null,
-    "exampleCode": "<p>The HTML <code>button</code> tag defines a clickable button.</p>  <p>The CSS <code>background-color</code> property defines the background color   of an element.</p>",
+    "exampleCode": "<p>The HTML <code>button</code> tag defines a clickable button.</p> <p>The CSS <code>background-color</code> property defines the background color of an element.</p>",
     "exampleText": "Define some text as computer code in a document:",
     "globalAttrib": "The <code> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <code> tag also supports the Event Attributes in HTML.",
@@ -559,11 +559,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "dt {  display: block;} ",
+    "defaultCssCode": "dt { display: block;} ",
     "defaultCssText": "Most browsers will display the <dt> element with the following default values:",
     "definition": "The <dt> tag defines a term/name in a description list. The <dt> tag is used in conjunction with <dl> (defines a description list) and <dd> (describes each term/name).",
     "description": "Defines a term/name in a description list",
-    "exampleCode": "<dl>  <dt>Coffee</dt>  <dd>Black hot drink</dd>  <dt>Milk</dt>  <dd>White cold drink</dd> </dl>",
+    "exampleCode": "<dl> <dt>Coffee</dt> <dd>Black hot drink</dd> <dt>Milk</dt> <dd>White cold drink</dd> </dl>",
     "exampleText": "A description list, with terms and descriptions:",
     "globalAttrib": "The <dt> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <dt> tag also supports the Event Attributes in HTML.",
@@ -575,11 +575,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "figcaption {  display: block;} ",
+    "defaultCssCode": "figcaption { display: block;} ",
     "defaultCssText": "Most browsers will display the <figcaption> element with the following default values:",
     "definition": "The <figcaption> tag defines a caption for a <figure> element. The <figcaption> element can be placed as the first or last child of the <figure> element.",
     "description": "Defines a caption for a <figure> element",
-    "exampleCode": "<figure> <img src=\"pic_trulli.jpg\" alt=\"Trulli\"     style=\"width:100%\"> <figcaption>Fig.1 - Trulli, Puglia,     Italy.</figcaption></figure>",
+    "exampleCode": "<figure> <img src=\"pic_trulli.jpg\" alt=\"Trulli\" style=\"width:100%\"> <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption></figure>",
     "exampleText": "Use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo:",
     "globalAttrib": "The <figcaption> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <figcaption> tag also supports the Event Attributes in HTML.",
@@ -591,7 +591,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "hr {  display: block;margin-top: 0.5em; margin-bottom: 0.5em;     margin-left: auto; margin-right: auto;border-style: inset; border-width: 1px;}",
+    "defaultCssCode": "hr { display: block;margin-top: 0.5em; margin-bottom: 0.5em; margin-left: auto; margin-right: auto;border-style: inset; border-width: 1px;}",
     "defaultCssText": "Most browsers will display the <hr> element with the following default values:",
     "definition": "The <hr> tag defines a thematic break in an HTML page. The <hr> element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.",
     "description": " Defines a thematic change in the content",
@@ -607,7 +607,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "fieldset {  display: block; margin-left: 2px; margin-right: 2px; padding-top: 0.35em; padding-bottom: 0.625em;     padding-left: 0.75em; padding-right: 0.75em; border: 2px groove (internal value);} ",
+    "defaultCssCode": "fieldset { display: block; margin-left: 2px; margin-right: 2px; padding-top: 0.35em; padding-bottom: 0.625em; padding-left: 0.75em; padding-right: 0.75em; border: 2px groove (internal value);} ",
     "defaultCssText": "Most browsers will display the <fieldset> element with the following default values:",
     "definition": "The <fieldset> tag is used to group related elements in a form. The <fieldset> tag draws a box around the related elements.",
     "description": "Groups related elements in a form",
@@ -643,7 +643,7 @@
     "defaultCssText": "Most browsers will display the <head> element with the following default values:",
     "definition": "The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag. Metadata is data about the HTML document. Metadata is not displayed. Metadata typically define the document title, character set, styles, scripts, and other meta information. The following elements can go inside the <head> element:<title> (required in every HTML document)<style><base><link><meta><script><noscript>",
     "description": "Contains metadata/information for the document",
-    "exampleCode": "<!DOCTYPE html><html lang=\"en\"> <head>  <title>Title of the document</title> </head><body><h1>This is a heading</h1></body></html>",
+    "exampleCode": "<!DOCTYPE html><html lang=\"en\"> <head> <title>Title of the document</title> </head><body><h1>This is a heading</h1></body></html>",
     "exampleText": "A simple HTML document, with a <title> tag inside the head section:",
     "globalAttrib": "The <head> tag also supports the Global Attributes in HTML.",
     "globalEvents": "",
@@ -655,11 +655,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "caption {  display: table-caption; text-align: center;} ",
+    "defaultCssCode": "caption { display: table-caption; text-align: center;} ",
     "defaultCssText": "Most browsers will display the <caption> element with the following default values:",
     "definition": "The <caption> tag defines a table caption. The <caption> tag must be inserted immediately after the <table> tag. By default, a table caption will be center-aligned above a table. However, the CSS properties text-align and caption-side can be used to align and place the caption.",
     "description": "Defines a table caption",
-    "exampleCode": "<table>    <caption>Monthly savings</caption>     <tr> <th>Month</th> <th>Savings</th> </tr> <tr> <td>January</td> <td>$100</td> </tr></table>",
+    "exampleCode": "<table> <caption>Monthly savings</caption> <tr> <th>Month</th> <th>Savings</th> </tr> <tr> <td>January</td> <td>$100</td> </tr></table>",
     "exampleText": "A table with a caption:",
     "globalAttrib": "The <caption> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <caption> tag also supports the Event Attributes in HTML.",
@@ -671,11 +671,11 @@
   },
   {
     "block": null,
-    "defaultCssCode": "h1 {  display: block; font-size: 2em; margin-top: 0.67em;     margin-bottom: 0.67em; margin-left: 0; margin-right: 0;     font-weight: bold;}    h2 { display: block; font-size: 1.5em; margin-top: 0.83em;     margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;}    h3 { display: block;font-size: 1.17em; margin-top: 1em;     margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;}    h4 { display: block;font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0;margin-right: 0;     font-weight: bold;}    h5 {  display: block; font-size: .83em; margin-top: 1.67em;     margin-bottom: 1.67em; margin-left: 0; margin-right: 0; font-weight: bold;}    h6 {  display: block; font-size: .67em; margin-top: 2.33em;     margin-bottom: 2.33em;margin-left: 0; margin-right: 0;font-weight: bold;}",
+    "defaultCssCode": "h1 { display: block; font-size: 2em; margin-top: 0.67em; margin-bottom: 0.67em; margin-left: 0; margin-right: 0; font-weight: bold;} h2 { display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;} h3 { display: block;font-size: 1.17em; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;} h4 { display: block;font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0;margin-right: 0; font-weight: bold;} h5 { display: block; font-size: .83em; margin-top: 1.67em; margin-bottom: 1.67em; margin-left: 0; margin-right: 0; font-weight: bold;} h6 { display: block; font-size: .67em; margin-top: 2.33em; margin-bottom: 2.33em;margin-left: 0; margin-right: 0;font-weight: bold;}",
     "defaultCssText": "Most browsers will display the <h1> element with the following default values:",
     "definition": "The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading. Note: Use only one <h1> per page - this should represent the main heading/subject for the whole page. Do not skip heading levels - start with <h1>, then use <h2>, and so on.",
     "description": null,
-    "exampleCode": "<h1>This is heading 1</h1>      <h2>This is heading 2</h2>      <h3>This is heading 3</h3>      <h4>This is heading 4</h4>      <h5>This is heading 5</h5>      <h6>This is heading 6</h6>",
+    "exampleCode": "<h1>This is heading 1</h1> <h2>This is heading 2</h2> <h3>This is heading 3</h3> <h4>This is heading 4</h4> <h5>This is heading 5</h5> <h6>This is heading 6</h6>",
     "exampleText": "The six different HTML headings:",
     "globalAttrib": "The <h1> to <h6> tags also supports the Global Attributes in HTML.",
     "globalEvents": "The <h1> to <h6> tags also supports the Event Attributes in HTML.",
@@ -691,7 +691,7 @@
     "defaultCssText": "Most browsers will display the <canvas> element with the following default values:",
     "definition": "The <canvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript). The <canvas> tag is transparent, and is only a container for graphics, you must use a script to actually draw the graphics. Any text inside the <canvas> element will be displayed in browsers with JavaScript disabled and in browsers that do not support <canvas>.",
     "description": "Used to draw graphics, on the fly, via scripting (usually JavaScript)",
-    "exampleCode": "<canvas id=\"myCanvas\">Your browser     does not support the canvas tag.</canvas>  <script> var canvas = document.getElementById(\"myCanvas\"); var ctx = canvas.getContext(\"2d\"); ctx.fillStyle = \"#FF0000\"; ctx.fillRect(0, 0, 80, 80); </script>",
+    "exampleCode": "<canvas id=\"myCanvas\">Your browser does not support the canvas tag.</canvas> <script> var canvas = document.getElementById(\"myCanvas\"); var ctx = canvas.getContext(\"2d\"); ctx.fillStyle = \"#FF0000\"; ctx.fillRect(0, 0, 80, 80); </script>",
     "exampleText": "Draw a red rectangle on the fly, and show it inside the <canvas> element:",
     "globalAttrib": "The <canvas> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <canvas> tag also supports the Event Attributes in HTML.",
@@ -718,7 +718,7 @@
     "defaultCssText": "Most browsers will display the <form> element with the following default values:",
     "definition": "The <form> tag is used to create an HTML form for user input. The <form> element can contain one or more of the following form elements: <input> <textarea> <button> <select> <option> <optgroup> <fieldset> <label> <output>",
     "description": "Defines an HTML form for user input",
-    "exampleCode": "<form     action=\"/action_page.php\"    method=\"get\"> <label for=\"fname\">First name:</label> <input type=\"text\" id=\"fname\"     name=\"fname\"><br><br> <label for=\"lname\">Last name:</label>     <input type=\"text\" id=\"lname\" name=\"lname\"><br><br> <input     type=\"submit\" value=\"Submit\">    </form>",
+    "exampleCode": "<form action=\"/action_page.php\" method=\"get\"> <label for=\"fname\">First name:</label> <input type=\"text\" id=\"fname\" name=\"fname\"><br><br> <label for=\"lname\">Last name:</label> <input type=\"text\" id=\"lname\" name=\"lname\"><br><br> <input type=\"submit\" value=\"Submit\"> </form>",
     "exampleText": "An HTML form with two input fields and one submit button:",
     "globalAttrib": "The <form> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <form> tag also supports the Event Attributes in HTML.",
@@ -745,7 +745,7 @@
       {
         "description": "Specifies how the form-data should be encoded when submitting it to the server (only for method=\"post\")",
         "name": "enctype",
-        "value": "application/x-www-form-urlencoded  multipart/form-data  text/plain"
+        "value": "application/x-www-form-urlencoded multipart/form-data text/plain"
       },
       {
         "description": "Specifies the HTTP method to use when sending form-data",
@@ -815,9 +815,9 @@
     "block": "true",
     "defaultCssCode": "div {display: block;} ",
     "defaultCssText": "Most browsers will display the <div> element with the following default values:",
-    "definition": "The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements. Any sort of content can be put inside the <div> tag! By default, browsers always place a line break before and after the  <div> element.",
+    "definition": "The <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements. Any sort of content can be put inside the <div> tag! By default, browsers always place a line break before and after the <div> element.",
     "description": "Defines a section in a document",
-    "exampleCode": "<html><head><style>.myDiv { border: 5px outset red;   background-color: lightblue;  text-align: center;}</style>  </head><body><div class=\"myDiv\"> <h2>This is a heading   in a div element</h2> <p>This is some text in a div element.</p>  </div></body></html>",
+    "exampleCode": "<html><head><style>.myDiv { border: 5px outset red; background-color: lightblue; text-align: center;}</style> </head><body><div class=\"myDiv\"> <h2>This is a heading in a div element</h2> <p>This is some text in a div element.</p> </div></body></html>",
     "exampleText": "A <div> section in a document that is styled with CSS:",
     "globalAttrib": "The <div> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <div> tag also supports the Event Attributes in HTML.",
@@ -856,11 +856,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "body {  display: block; margin: 8px;}body:focus { outline: none;}",
+    "defaultCssCode": "body { display: block; margin: 8px;}body:focus { outline: none;}",
     "defaultCssText": "Most browsers will display the <body> element with the following default values:",
     "definition": "The <body> tag defines the document's body. The <body> element contains all the contents of an HTML document. There can only be one <body> element in an HTML document.",
     "description": "Defines the document's body",
-    "exampleCode": "<html> <head>  <title>Title of the document</title> </head><body> <h1>This is a heading</h1> <p>This is a paragraph.</p></body></html>",
+    "exampleCode": "<html> <head> <title>Title of the document</title> </head><body> <h1>This is a heading</h1> <p>This is a paragraph.</p></body></html>",
     "exampleText": "A simple HTML document:",
     "globalAttrib": "The <body> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <body> tag also supports the Event Attributes in HTML.",
@@ -874,9 +874,9 @@
     "block": "false",
     "defaultCssCode": "label { cursor: default;} ",
     "defaultCssText": "Most browsers will display the <label> element with the following default values:",
-    "definition": "The <label> tag defines a label for several elements: <input type=\"checkbox\">  <input type=\"color\">  <input type=\"date\">  <input type=\"datetime-local\">  <input type=\"email\">  <input type=\"file\">  <input type=\"month\">  <input type=\"number\">  <input type=\"password\">  <input type=\"radio\">  <input type=\"range\">  <input type=\"search\">  <input type=\"tel\">  <input type=\"text\">  <input type=\"time\">  <input type=\"url\">  <input type=\"week\">  <meter>  <progress>  <select>  <textarea>Proper use of labels with the elements above will benefit: Screen reader users (will read out loud the label, when the user is focused on   the element)  Users who have difficulty clicking on very small regions (such as   checkboxes) - because when a user clicks the text within the <label> element,   it toggles the input (this increases the hit area).",
+    "definition": "The <label> tag defines a label for several elements: <input type=\"checkbox\"> <input type=\"color\"> <input type=\"date\"> <input type=\"datetime-local\"> <input type=\"email\"> <input type=\"file\"> <input type=\"month\"> <input type=\"number\"> <input type=\"password\"> <input type=\"radio\"> <input type=\"range\"> <input type=\"search\"> <input type=\"tel\"> <input type=\"text\"> <input type=\"time\"> <input type=\"url\"> <input type=\"week\"> <meter> <progress> <select> <textarea>Proper use of labels with the elements above will benefit: Screen reader users (will read out loud the label, when the user is focused on the element) Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the <label> element, it toggles the input (this increases the hit area).",
     "description": "Defines a label for an <input> element",
-    "exampleCode": "<form action=\"/action_page.php\">  <label for=\"male\">Male</label> <input type=\"radio\" name=\"gender\" id=\"male\" value=\"male\"><br> <label for=\"female\">Female</label> <input type=\"radio\" name=\"gender\" id=\"female\" value=\"female\"><br> <label for=\"other\">Other</label> <input type=\"radio\" name=\"gender\" id=\"other\" value=\"other\"><br><br> <input type=\"submit\" value=\"Submit\"></form>",
+    "exampleCode": "<form action=\"/action_page.php\"> <label for=\"male\">Male</label> <input type=\"radio\" name=\"gender\" id=\"male\" value=\"male\"><br> <label for=\"female\">Female</label> <input type=\"radio\" name=\"gender\" id=\"female\" value=\"female\"><br> <label for=\"other\">Other</label> <input type=\"radio\" name=\"gender\" id=\"other\" value=\"other\"><br><br> <input type=\"submit\" value=\"Submit\"></form>",
     "exampleText": "Three radio buttons with labels:",
     "globalAttrib": "The <label> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <label> tag also supports the Event Attributes in HTML.",
@@ -899,7 +899,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "img {  display: inline-block;} ",
+    "defaultCssCode": "img { display: inline-block;} ",
     "defaultCssText": "Most browsers will display the <img> element with the following default values:",
     "definition": "The <img> tag is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image. The <img> tag has two required attributes: src - specifies the path to the image and alt - specifies an alternate text for the image, if the image for some reason cannot be displayed. Always specify the width and height of an image. If width and height are not specified, the page might flicker while the image loads.",
     "description": "Defines an image",
@@ -945,7 +945,7 @@
       {
         "description": "Specifies which referrer information to use when fetching an image",
         "name": "referrerpolicy",
-        "value": "no-referrer no-referrer-when-downgrade origin     origin-when-cross-origin unsafe-url"
+        "value": "no-referrer no-referrer-when-downgrade origin origin-when-cross-origin unsafe-url"
       },
       {
         "description": "Specifies image sizes for different page layouts",
@@ -976,7 +976,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "iframe:focus { outline: none;} iframe[seamless] {  display: block;} ",
+    "defaultCssCode": "iframe:focus { outline: none;} iframe[seamless] { display: block;} ",
     "defaultCssText": "Most browsers will display the <iframe> element with the following default values:",
     "definition": "The <iframe> tag specifies an inline frame. An inline frame is used to embed another document within the current HTML document. It is a good practice to always include a title attribute for the <iframe>. This is used by screen readers to read out what the content of the <iframe> is.",
     "description": "Defines an inline frame",
@@ -1050,7 +1050,7 @@
     "block": "false",
     "defaultCssCode": "",
     "defaultCssText": "None.",
-    "definition": "The <input> tag specifies an input field where the user can enter data. The <input> element is the most important form element. The <input> element can be displayed in several ways, depending on the type attribute. The different input types are as follows: <input type=\"button\">  <input type=\"checkbox\">  <input type=\"color\">  <input type=\"date\">  <input type=\"datetime-local\">  <input type=\"email\">  <input type=\"file\">  <input type=\"hidden\">  <input type=\"image\">  <input type=\"month\">  <input type=\"number\">  <input type=\"password\">  <input type=\"radio\">  <input type=\"range\">  <input type=\"reset\">  <input type=\"search\">  <input type=\"submit\">  <input type=\"tel\">  <input type=\"text\"> (default value)  <input type=\"time\">  <input type=\"url\">  <input type=\"week\">",
+    "definition": "The <input> tag specifies an input field where the user can enter data. The <input> element is the most important form element. The <input> element can be displayed in several ways, depending on the type attribute. The different input types are as follows: <input type=\"button\"> <input type=\"checkbox\"> <input type=\"color\"> <input type=\"date\"> <input type=\"datetime-local\"> <input type=\"email\"> <input type=\"file\"> <input type=\"hidden\"> <input type=\"image\"> <input type=\"month\"> <input type=\"number\"> <input type=\"password\"> <input type=\"radio\"> <input type=\"range\"> <input type=\"reset\"> <input type=\"search\"> <input type=\"submit\"> <input type=\"tel\"> <input type=\"text\"> (default value) <input type=\"time\"> <input type=\"url\"> <input type=\"week\">",
     "description": "Defines an input control",
     "exampleCode": "<form action=\"/action_page.php\"> <label for=\"fname\">First name:</label> <input type=\"text\" id=\"fname\" name=\"fname\"><br><br> <label for=\"lname\">Last name:</label> <input type=\"text\" id=\"lname\" name=\"lname\"><br><br> <input type=\"submit\" value=\"Submit\"> </form>",
     "exampleText": "An HTML form with three input fields; two text fields and one submit button:",
@@ -1109,7 +1109,7 @@
       {
         "description": "Specifies how the form-data should be encoded when submitting it to the server (for type=\"submit\" and type=\"image\")",
         "name": "formenctype",
-        "value": "application/x-www-form-urlencoded  multipart/form-data  text/plain"
+        "value": "application/x-www-form-urlencoded multipart/form-data text/plain"
       },
       {
         "description": "Defines the HTTP method for sending data to the action URL (for type=\"submit\" and type=\"image\")",
@@ -1124,7 +1124,7 @@
       {
         "description": "Specifies where to display the response that is received after submitting the form (for type=\"submit\" and type=\"image\")",
         "name": "formtarget",
-        "value": "_blank _self _parent _top  framename"
+        "value": "_blank _self _parent _top framename"
       },
       {
         "description": "Specifies the height of an <input> element (only for type=\"image\")",
@@ -1139,7 +1139,7 @@
       {
         "description": "Specifies the maximum value for an <input> element",
         "name": "max",
-        "value": "number  date"
+        "value": "number date"
       },
       {
         "description": "Specifies the maximum number of characters allowed in an <input> element",
@@ -1149,7 +1149,7 @@
       {
         "description": "Specifies a minimum value for an <input> element",
         "name": "min",
-        "value": "number  date"
+        "value": "number date"
       },
       {
         "description": "Specifies the minimum number of characters required in an <input> element",
@@ -1192,7 +1192,7 @@
         "value": "number"
       },
       {
-        "description": "Specifies the URL of the image to use as a submit button (only for     type=\"image\")",
+        "description": "Specifies the URL of the image to use as a submit button (only for type=\"image\")",
         "name": "src",
         "value": "URL"
       },
@@ -1242,11 +1242,11 @@
   },
   {
     "block": null,
-    "defaultCssCode": "kbd {  font-family: monospace;} ",
+    "defaultCssCode": "kbd { font-family: monospace;} ",
     "defaultCssText": "Most browsers will display the <kbd> element with the following default values:",
     "definition": "The <kbd> tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.",
     "description": null,
-    "exampleCode": "<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>  <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>",
+    "exampleCode": "<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p> <p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>",
     "exampleText": "Define some text as keyboard input in a document:",
     "globalAttrib": "The <kbd> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <kbd> tag also supports the Event Attributes in HTML.",
@@ -1290,11 +1290,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "ol {display: block; list-style-type: decimal; margin-top: 1em;     margin-bottom: 1em;margin-left: 0; margin-right: 0;     padding-left: 40px;} ",
+    "defaultCssCode": "ol {display: block; list-style-type: decimal; margin-top: 1em; margin-bottom: 1em;margin-left: 0; margin-right: 0; padding-left: 40px;} ",
     "defaultCssText": "Most browsers will display the <ol> element with the following default values:",
     "definition": "The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical. The <li> tag is used to define each list item.",
     "description": "Defines an ordered list",
-    "exampleCode": "<ol>  <li>Coffee</li>  <li>Tea</li>  <li>Milk</li> </ol>  <ol start=\"50\">  <li>Coffee</li>  <li>Tea</li>  <li>Milk</li> </ol>",
+    "exampleCode": "<ol> <li>Coffee</li> <li>Tea</li> <li>Milk</li> </ol> <ol start=\"50\"> <li>Coffee</li> <li>Tea</li> <li>Milk</li> </ol>",
     "exampleText": "Two different ordered lists (the first list starts at 1, and the second starts at 50):",
     "globalAttrib": "The <ol> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <ol> tag also supports the Event Attributes in HTML.",
@@ -1383,7 +1383,7 @@
     "defaultCssText": "Most browsers will display the <map> element with the following default values:",
     "definition": "The <map> tag is used to define an image map. An image map is an image with clickable areas. The required name attribute of the <map> element is associated with the <img>'s usemap attribute and creates a relationship between the image and the map. The <map> element contains a number of <area> elements, that defines the clickable areas in the image map.",
     "description": "Defines an image map",
-    "exampleCode": "<img src=\"workplace.jpg\" alt=\"Workplace\" usemap=\"#workmap\" width=\"400\"     height=\"379\"><map name=\"workmap\"> <area shape=\"rect\" coords=\"34,44,270,350\" alt=\"Computer\" href=\"computer.htm\"> <area     shape=\"rect\" coords=\"290,172,333,250\" alt=\"Phone\" href=\"phone.htm\"> <area shape=\"circle\" coords=\"337,300,44\" alt=\"Cup of coffee\" href=\"coffee.htm\"> </map>",
+    "exampleCode": "<img src=\"workplace.jpg\" alt=\"Workplace\" usemap=\"#workmap\" width=\"400\" height=\"379\"><map name=\"workmap\"> <area shape=\"rect\" coords=\"34,44,270,350\" alt=\"Computer\" href=\"computer.htm\"> <area shape=\"rect\" coords=\"290,172,333,250\" alt=\"Phone\" href=\"phone.htm\"> <area shape=\"circle\" coords=\"337,300,44\" alt=\"Cup of coffee\" href=\"coffee.htm\"> </map>",
     "exampleText": "An image map, with clickable areas:",
     "globalAttrib": "The <map> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <map> tag also supports the Event Attributes in HTML.",
@@ -1405,7 +1405,7 @@
     "defaultCssText": "None.",
     "definition": "The <meta> tag defines metadata about an HTML document. Metadata represents information about data. <meta> tags always go inside the <head> element, and are typically used to specify character set, page description, keywords, author of the document, and viewport settings. Metadata is machine parsable. Metadata is used by browsers (how to display content or reload page), search engines (keywords), and other web services.",
     "description": "Defines metadata about an HTML document",
-    "exampleCode": "<head>  <meta charset=\"UTF-8\">  <meta name=\"description\" content=\"Free Web tutorials\">  <meta name=\"keywords\" content=\"HTML, CSS, JavaScript\">  <meta name=\"author\" content=\"John Doe\"> <meta     name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> </head>",
+    "exampleCode": "<head> <meta charset=\"UTF-8\"> <meta name=\"description\" content=\"Free Web tutorials\"> <meta name=\"keywords\" content=\"HTML, CSS, JavaScript\"> <meta name=\"author\" content=\"John Doe\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> </head>",
     "exampleText": "Describe metadata within an HTML document:",
     "globalAttrib": "The <meta> tag also supports the Global Attributes in HTML.",
     "globalEvents": "",
@@ -1427,7 +1427,7 @@
       {
         "description": "Provides an HTTP header for the information/value of the content attribute",
         "name": "http-equiv",
-        "value": "content-security-policy content-type   default-style refresh"
+        "value": "content-security-policy content-type default-style refresh"
       },
       {
         "description": "Specifies a name for the metadata",
@@ -1494,7 +1494,7 @@
     "defaultCssText": "None.",
     "definition": "The <option> tag defines an option in a select list. <option> elements go inside a <select>,<optgroup>, or <datalist> element. The <option> tag can be used without any attributes, but you usually need the value attribute, which indicates what is sent to the server on form submission. If you have a long list of options, you can group related options within the <optgroup> tag.",
     "description": "Defines an option in a drop-down list",
-    "exampleCode": "<label for=\"cars\">Choose a car:</label><select id=\"cars\"> <option value=\"volvo\">Volvo</option> <option value=\"saab\">Saab</option> <option value=\"opel\">Opel</option>            <option value=\"audi\">Audi</option>      </select>",
+    "exampleCode": "<label for=\"cars\">Choose a car:</label><select id=\"cars\"> <option value=\"volvo\">Volvo</option> <option value=\"saab\">Saab</option> <option value=\"opel\">Opel</option> <option value=\"audi\">Audi</option> </select>",
     "exampleText": "A drop-down list with four options:",
     "globalAttrib": "The <option> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <option> tag also supports the Event Attributes in HTML.",
@@ -1565,11 +1565,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "figure {  display: block; margin-top: 1em; margin-bottom: 1em;     margin-left: 40px; margin-right: 40px;} ",
+    "defaultCssCode": "figure { display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px; margin-right: 40px;} ",
     "defaultCssText": "Most browsers will display the <figure> element with the following default values:",
     "definition": "The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc. While the content of the <figure> element is related to the main flow,its position is independent of the main flow, and if removed it should not affect the flow of the document. The <figcaption> element is used to add a caption for the <figure> element.",
     "description": "Specifies self-contained content",
-    "exampleCode": "<figure>     <img src=\"pic_trulli.jpg\" alt=\"Trulli\" style=\"width:100%\"> <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> </figure>",
+    "exampleCode": "<figure> <img src=\"pic_trulli.jpg\" alt=\"Trulli\" style=\"width:100%\"> <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> </figure>",
     "exampleText": "Use a <figure> element to mark up a photo in a document, and a <figcaption> element to define a caption for the photo:",
     "globalAttrib": "The <figure> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <figure> tag also supports the Event Attributes in HTML.",
@@ -1585,7 +1585,7 @@
     "defaultCssText": "Most browsers will display the <nav> element with the following default values:",
     "definition": "The <nav> tag defines a set of navigation links. Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is intended only for major block of navigation links. Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.",
     "description": "Defines navigation links",
-    "exampleCode": "<nav>  <a href=\"/html/\">HTML</a> | <a href=\"/css/\">CSS</a> | <a href=\"/js/\">JavaScript</a> | <a href=\"/python/\">Python</a> </nav>",
+    "exampleCode": "<nav> <a href=\"/html/\">HTML</a> | <a href=\"/css/\">CSS</a> | <a href=\"/js/\">JavaScript</a> | <a href=\"/python/\">Python</a> </nav>",
     "exampleText": "A set of navigation links:",
     "globalAttrib": "The <nav> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <nav> tag also supports the Event Attributes in HTML.",
@@ -1628,7 +1628,7 @@
     "defaultCssText": "",
     "definition": "The <picture> tag gives web developers more flexibility in specifying image resources. The most common use of the <picture> element will be for art direction in responsive designs. Instead of having one image that is scaled up or down based on the viewport width, multiple images can be designed to more nicely fill the browser viewport. The <picture> element contains two tags: one or more <source> tags and one <img> tag. The browser will look for the first <source> element where the media query matches the current viewport width, and then it will display the proper image (specified in the srcset attribute). The <img> element is required as the last child of the <picture> element, as a fallback option if none of the source tags matches. The <picture> element works \"similar\" to <video> and <audio>. You set up different sources, and the first source that fits the preferences is the one being used.",
     "description": "Defines a container for multiple image resources",
-    "exampleCode": "<picture> <source media=\"(min-width:650px)\" srcset=\"img_pink_flowers.jpg\"> <source media=\"(min-width:465px)\" srcset=\"img_white_flower.jpg\"> <img   src=\"img_orange_flowers.jpg\" alt=\"Flowers\" style=\"width:auto;\"></picture> ",
+    "exampleCode": "<picture> <source media=\"(min-width:650px)\" srcset=\"img_pink_flowers.jpg\"> <source media=\"(min-width:465px)\" srcset=\"img_white_flower.jpg\"> <img src=\"img_orange_flowers.jpg\" alt=\"Flowers\" style=\"width:auto;\"></picture> ",
     "exampleText": "How to use the <picture> tag:",
     "globalAttrib": "The <picture> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <picture> tag also supports the Event Attributes in HTML.",
@@ -1642,7 +1642,7 @@
     "block": "true",
     "defaultCssCode": "p { display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 0;margin-right: 0;} ",
     "defaultCssText": "Most browsers will display the <p> element with the following default values:",
-    "definition": "The <p> tag defines a paragraph. Browsers automatically add a single blank line before and after each <p>  element. Use CSS to style paragraphs.",
+    "definition": "The <p> tag defines a paragraph. Browsers automatically add a single blank line before and after each <p> element. Use CSS to style paragraphs.",
     "description": "Defines a paragraph",
     "exampleCode": "<p>This is some text in a paragraph.</p>",
     "exampleText": "A paragraph is marked up as follows:",
@@ -1656,9 +1656,9 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "footer {  display: block;} ",
+    "defaultCssCode": "footer { display: block;} ",
     "defaultCssText": "Most browsers will display the <footer> element with the following default values:",
-    "definition": "The <footer> tag defines a footer for a document or section. A <footer> element typically contains: authorship information  copyright information  contact information  sitemap  back to top links  related documentsYou can have several <footer> elements in one document.",
+    "definition": "The <footer> tag defines a footer for a document or section. A <footer> element typically contains: authorship information copyright information contact information sitemap back to top links related documentsYou can have several <footer> elements in one document.",
     "description": "Defines a footer for a document or section",
     "exampleCode": "<footer> <p>Author: Hege Refsnes</p> <p><a href=\"mailto:hege@example.com\">hege@example.com</a></p></footer>",
     "exampleText": "A footer section in a document:",
@@ -1750,7 +1750,7 @@
       {
         "description": "Specifies the size of the linked resource. Only for rel=\"icon\"",
         "name": "sizes",
-        "value": "HeightxWidth  any"
+        "value": "HeightxWidth any"
       },
       {
         "description": "Defines a preferred or an alternate stylesheet",
@@ -1861,7 +1861,7 @@
       {
         "description": "Specifies how form-data should be encoded before sending it to a server. Only for type=\"submit\"",
         "name": "formenctype",
-        "value": "application/x-www-form-urlencoded  multipart/form-data  text/plain"
+        "value": "application/x-www-form-urlencoded multipart/form-data text/plain"
       },
       {
         "description": "Specifies how to send the form-data (which HTTP method to use). Only for type=\"submit\"",
@@ -1876,7 +1876,7 @@
       {
         "description": "Specifies where to display the response after submitting the form. Only for type=\"submit\"",
         "name": "formtarget",
-        "value": "_blank     _self     _parent     _top     framename"
+        "value": "_blank _self _parent _top framename"
       },
       {
         "description": "Specifies a name for the button",
@@ -1897,7 +1897,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "html {  display: block;} html:focus { outline: none;} ",
+    "defaultCssCode": "html { display: block;} html:focus { outline: none;} ",
     "defaultCssText": "Most browsers will display the <html> element with the following default values:",
     "definition": "The <html> tag represents the root of an HTML document. The <html> tag is the container for all other HTML elements (except for the<!DOCTYPE> tag). Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers.",
     "description": "Defines the root of an HTML document",
@@ -1946,7 +1946,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "datalist {  display: none;} ",
+    "defaultCssCode": "datalist { display: none;} ",
     "defaultCssText": "Most browsers will display the <datalist> element with the following default values:",
     "definition": "The <datalist> tag specifies a list of pre-defined options for an <input> element. The <datalist> tag is used to provide an \"autocomplete\" feature for <input> elements. Users will see a drop-down list of pre-defined options as they input data. The <datalist> element's id attribute must be equal to the <input> element's list attribute (this binds them together).",
     "description": "Specifies a list of pre-defined options for input controls",
@@ -1962,11 +1962,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "details {  display: block;} ",
+    "defaultCssCode": "details { display: block;} ",
     "defaultCssText": "Most browsers will display the <details> element with the following default values:",
     "definition": "The <details> tag specifies additional details that the user can open and close on demand. The <details> tag is often used to create an interactive widget that the user can open and close. By default, the widget is closed. When open, it expands, and displays the content within. Any sort of content can be put inside the <details> tag. The <summary> tag is used in conjuction with <details> to specify a visible heading for the details.",
     "description": "Defines additional details that the user can view or hide",
-    "exampleCode": "<details> <summary>Epcot Center</summary> <p>Epcot is a     theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p></details>",
+    "exampleCode": "<details> <summary>Epcot Center</summary> <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p></details>",
     "exampleText": "Specify details that the user can open and close on demand:",
     "globalAttrib": "The <details> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <details> tag also supports the Event Attributes in HTML.",
@@ -1984,11 +1984,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "dd {  display: block; margin-left: 40px;} ",
+    "defaultCssCode": "dd { display: block; margin-left: 40px;} ",
     "defaultCssText": "Most browsers will display the <dd> element with the following default values:",
     "definition": "The <dd> tag is used to describe a term/name in a description list. The <dd> tag is used in conjunction with <dl> (defines a description list) and <dt> (defines terms/names). Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.",
     "description": "Defines a description/value of a term in a description list",
-    "exampleCode": "<dl>  <dt>Coffee</dt> <dd>Black hot drink</dd>  <dt>Milk</dt> <dd>White cold drink</dd> </dl>",
+    "exampleCode": "<dl> <dt>Coffee</dt> <dd>Black hot drink</dd> <dt>Milk</dt> <dd>White cold drink</dd> </dl>",
     "exampleText": "A description list, with terms and descriptions:",
     "globalAttrib": "The <dd> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <dd> tag also supports the Event Attributes in HTML.",
@@ -2132,7 +2132,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "q { display: inline;}q:before {  content: open-quote;}q:after { content: close-quote;} ",
+    "defaultCssCode": "q { display: inline;}q:before { content: open-quote;}q:after { content: close-quote;} ",
     "defaultCssText": "Most browsers will display the <q> element with the following default values:",
     "definition": "The <q> tag defines a short quotation. Browsers normally insert quotation marks around the quotation. Use <blockquote> for long quotations.",
     "description": "Defines a short quotation",
@@ -2210,7 +2210,7 @@
     "defaultCssText": "None.",
     "definition": "The <source> tag is used to specify multiple media resources for media elements, such as <video>, <audio>, and <picture>. The <source> tag allows you to specify alternative video/audio/image files which the browser may choose from, based on browser support or viewport width. The browser will choose the first <source> it supports.",
     "description": "Defines multiple media resources for media elements (<video> and <audio>)",
-    "exampleCode": "<audio controls>  <source src=\"horse.ogg\" type=\"audio/ogg\">  <source src=\"horse.mp3\" type=\"audio/mpeg\">  Your browser does not support the audio element. </audio>",
+    "exampleCode": "<audio controls> <source src=\"horse.ogg\" type=\"audio/ogg\"> <source src=\"horse.mp3\" type=\"audio/mpeg\"> Your browser does not support the audio element. </audio>",
     "exampleText": "An audio player with two source files. The browser will choose the first <source> it supports:",
     "globalAttrib": "The <source> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <source> tag also supports the Event Attributes in HTML.",
@@ -2252,7 +2252,7 @@
     "defaultCssText": "",
     "definition": "The <svg> tag defines a container for SVG graphics. SVG has several methods for drawing paths, boxes, circles, text, and graphic images.",
     "description": "Defines a container for SVG graphics",
-    "exampleCode": "<svg width=\"100\" height=\"100\"> <circle cx=\"50\" cy=\"50\" r=\"40\"   stroke=\"green\" stroke-width=\"4\" fill=\"yellow\" /></svg>",
+    "exampleCode": "<svg width=\"100\" height=\"100\"> <circle cx=\"50\" cy=\"50\" r=\"40\" stroke=\"green\" stroke-width=\"4\" fill=\"yellow\" /></svg>",
     "exampleText": "Draw a circle:",
     "globalAttrib": "",
     "globalEvents": "",
@@ -2264,7 +2264,7 @@
   },
   {
     "block": null,
-    "defaultCssCode": "strong {  font-weight: bold;} ",
+    "defaultCssCode": "strong { font-weight: bold;} ",
     "defaultCssText": "Most browsers will display the <strong> element with the following default values:",
     "definition": "The <strong> tag is used to define text with strong importance. The content inside is typically displayed inbold. Use the <b> tag to specify bold text without any extra importance!",
     "description": null,
@@ -2280,11 +2280,11 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "tfoot {display: table-footer-group; vertical-align: middle;     border-color: inherit;} ",
+    "defaultCssCode": "tfoot {display: table-footer-group; vertical-align: middle; border-color: inherit;} ",
     "defaultCssText": "Most browsers will display the <tfoot> element with the following default values:",
     "definition": "The <tfoot> tag is used to group footer content in an HTML table. The <tfoot> element is used in conjunction with the <thead> and <tbody> elements to specify each part of a table (footer, header, body). Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page. Note: The <tfoot> element must have one or more <tr> tags inside. The <tfoot> tag must be used in the following context: As a child of a <table> element, after any <caption>, <colgroup>, <thead>, and <tbody> elements. The <thead>, <tbody>, and <tfoot> elements will not affect the layout of the table by default.",
     "description": "Groups the footer content in a table",
-    "exampleCode": "<table> <thead> <tr> <th>Month</th> <th>Savings</th> </tr> </thead>  <tbody> <tr> <td>January</td> <td>$100</td> </tr> <tr> <td>February</td> <td>$80</td> </tr> </tbody> <tfoot> <tr> <td>Sum</td> <td>$180</td> </tr> </tfoot> </table>",
+    "exampleCode": "<table> <thead> <tr> <th>Month</th> <th>Savings</th> </tr> </thead> <tbody> <tr> <td>January</td> <td>$100</td> </tr> <tr> <td>February</td> <td>$80</td> </tr> </tbody> <tfoot> <tr> <td>Sum</td> <td>$180</td> </tr> </tfoot> </table>",
     "exampleText": "An HTML table with a <thead>, <tbody>, and a <tfoot> element:",
     "globalAttrib": "The <tfoot> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <tfoot> tag also supports the Event Attributes in HTML.",
@@ -2298,7 +2298,7 @@
     "block": "true",
     "defaultCssCode": "thead { display: table-header-group; vertical-align: middle; border-color: inherit;} ",
     "defaultCssText": "Most browsers will display the <thead> element with the following default values:",
-    "definition": "The <thead> tag is used to group header content in an HTML table. The <thead> element is used in conjunction with the  <tbody> and <tfoot> elements to specify each part of a table (header, body, footer). Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page. Note: The <thead> element must have one or more <tr> tags inside. The <thead> tag must be used in the following context: As a child of a <table> element, after any <caption> and <colgroup> elements, and before any <tbody>, <tfoot>, and <tr> elements. The <thead>, <tbody>, and <tfoot> elements will not affect the layout of the table by default.",
+    "definition": "The <thead> tag is used to group header content in an HTML table. The <thead> element is used in conjunction with the <tbody> and <tfoot> elements to specify each part of a table (header, body, footer). Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page. Note: The <thead> element must have one or more <tr> tags inside. The <thead> tag must be used in the following context: As a child of a <table> element, after any <caption> and <colgroup> elements, and before any <tbody>, <tfoot>, and <tr> elements. The <thead>, <tbody>, and <tfoot> elements will not affect the layout of the table by default.",
     "description": "Groups the header content in a table",
     "exampleCode": "<table> <thead> <tr> <th>Month</th><th>Savings</th> </tr> </thead> <tbody> <tr> <td>January</td> <td>$100</td> </tr> <tr> <td>February</td> <td>$80</td> </tr> </tbody> <tfoot> <tr> <td>Sum</td> <td>$180</td> </tr> </tfoot></table>",
     "exampleText": "An HTML table with a <thead>, <tbody>, and a <tfoot> element:",
@@ -2314,9 +2314,9 @@
     "block": "true",
     "defaultCssCode": "td { display: table-cell;vertical-align: inherit;} ",
     "defaultCssText": "Most browsers will display the <td> element with the following default values:",
-    "definition": "The <td> tag defines a standard data cell in an HTML table. An HTML table has two kinds of cells: Header cells - contains header information (created with the <th> element)  Data cells - contains data (created with the <td> element)The text in <td> elements are regular and left-aligned by default. The text in <th> elements are bold and centered by default.",
+    "definition": "The <td> tag defines a standard data cell in an HTML table. An HTML table has two kinds of cells: Header cells - contains header information (created with the <th> element) Data cells - contains data (created with the <td> element)The text in <td> elements are regular and left-aligned by default. The text in <th> elements are bold and centered by default.",
     "description": "Defines a cell in a table",
-    "exampleCode": "<table>  <tr>  <td>Cell A</td>  <td>Cell B</td>  </tr>  <tr>  <td>Cell C</td>  <td>Cell D</td>  </tr> </table>",
+    "exampleCode": "<table> <tr> <td>Cell A</td> <td>Cell B</td> </tr> <tr> <td>Cell C</td> <td>Cell D</td> </tr> </table>",
     "exampleText": "A simple HTML table, with two rows and four table cells:",
     "globalAttrib": "The <td> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <td> tag also supports the Event Attributes in HTML.",
@@ -2406,7 +2406,7 @@
       {
         "description": "Specifies if and how the author thinks the video should be loaded when the page loads",
         "name": "preload",
-        "value": "auto  metadata  none"
+        "value": "auto metadata none"
       },
       {
         "description": "Specifies the URL of the video file",
@@ -2454,7 +2454,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "small {  font-size: smaller;} ",
+    "defaultCssCode": "small { font-size: smaller;} ",
     "defaultCssText": "Most browsers will display the <small> element with the following default values:",
     "definition": "The <small> tag defines smaller text (like copyright and other side-comments).",
     "description": "Defines smaller text",
@@ -2470,7 +2470,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "s {  text-decoration: line-through;} ",
+    "defaultCssCode": "s { text-decoration: line-through;} ",
     "defaultCssText": "Most browsers will display the <s> element with the following default values:",
     "definition": "The <s> tag specifies text that is no longer correct, accurate or relevant. The text will be displayed with a line through it. The <s> tag should not be used to define deleted text in a document, use the <del> tag for that.",
     "description": "Defines text that is no longer correct",
@@ -2506,7 +2506,7 @@
     "defaultCssText": "None.",
     "definition": "The <span> tag is an inline container used to mark up a part of a text, or a part of a document. The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute. The <span> tag is much like the<div> element, but <div> is a block-level element and<span> is an inline element.",
     "description": "Defines a section in a document",
-    "exampleCode": "<p>My mother has <span style=\"color:blue\">blue</span>      eyes.</p>",
+    "exampleCode": "<p>My mother has <span style=\"color:blue\">blue</span> eyes.</p>",
     "exampleText": "A <span> element which is used to color a part of a text:",
     "globalAttrib": "The <span> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <span> tag also supports the Event Attributes in HTML.",
@@ -2534,7 +2534,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "sub {  vertical-align: sub; font-size: smaller;} ",
+    "defaultCssCode": "sub { vertical-align: sub; font-size: smaller;} ",
     "defaultCssText": "Most browsers will display the <sub> element with the following default values:",
     "definition": "The <sub> tag defines subscript text. Subscript text appears half a character below the normal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O. Use the <sup> tag to define superscripted text.",
     "description": "Defines subscripted text",
@@ -2550,7 +2550,7 @@
   },
   {
     "block": "false",
-    "defaultCssCode": "sup {  vertical-align: super; font-size: smaller;} ",
+    "defaultCssCode": "sup { vertical-align: super; font-size: smaller;} ",
     "defaultCssText": "Most browsers will display the <sup> element with the following default values:",
     "definition": "The <sup> tag defines superscript text. Superscript text appears half a character above the normal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1]. Use the <sub> tag to define subscript text.",
     "description": "Defines superscripted text",
@@ -2568,9 +2568,9 @@
     "block": "true",
     "defaultCssCode": "title { display: none;} ",
     "defaultCssText": "Most browsers will display the <title> element with the following default values:",
-    "definition": "The <title> tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab. The <title> tag is required in HTML documents! The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results. The <title> element: defines a title in the browser toolbar  provides a title for the page when it is added to favorites displays a title for the page in search-engine resultsHere are some tips for creating good titles: Go for a longer, descriptive title (avoid one- or two-word titles)  Search engines will display about 50-60 characters of the title, so try not to have titles longer than that. Do not use just a list of words as the title, try to make the title as accurate and meaningful as possible! You can NOT have more than one <title> element in an HTML document.",
+    "definition": "The <title> tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab. The <title> tag is required in HTML documents! The contents of a page title is very important for search engine optimization (SEO)! The page title is used by search engine algorithms to decide the order when listing pages in search results. The <title> element: defines a title in the browser toolbar provides a title for the page when it is added to favorites displays a title for the page in search-engine resultsHere are some tips for creating good titles: Go for a longer, descriptive title (avoid one- or two-word titles) Search engines will display about 50-60 characters of the title, so try not to have titles longer than that. Do not use just a list of words as the title, try to make the title as accurate and meaningful as possible! You can NOT have more than one <title> element in an HTML document.",
     "description": "Defines a title for the document",
-    "exampleCode": "<!DOCTYPE html><html><head>  <title>HTML Elements Reference</title> </head><body> <h1>This is a heading</h1><p>This is a paragraph.</p></body></html>",
+    "exampleCode": "<!DOCTYPE html><html><head> <title>HTML Elements Reference</title> </head><body> <h1>This is a heading</h1><p>This is a paragraph.</p></body></html>",
     "exampleText": "Define a title for your HTML document:",
     "globalAttrib": "The <title> tag also supports the Global Attributes in HTML.",
     "globalEvents": "",
@@ -2604,7 +2604,7 @@
   },
   {
     "block": "true",
-    "defaultCssCode": "table { display: table;border-collapse: separate; border-spacing: 2px;     border-color: gray;} ",
+    "defaultCssCode": "table { display: table;border-collapse: separate; border-spacing: 2px; border-color: gray;} ",
     "defaultCssText": "Most browsers will display the <table> element with the following default values:",
     "definition": "The <table> tag defines an HTML table. An HTML table consists of one <table> element and one or more <tr>, <th>, and <td> elements. The <tr> element defines a table row, the <th> element defines a table header, and the <td> element defines a table cell. An HTML table may also include <caption>,<colgroup>, <thead>, <tfoot>, and <tbody> elements.",
     "description": "Defines a table",
@@ -2620,7 +2620,7 @@
   },
   {
     "block": null,
-    "defaultCssCode": "var {  font-style: italic;} ",
+    "defaultCssCode": "var { font-style: italic;} ",
     "defaultCssText": "Most browsers will display the <var> element with the following default values:",
     "definition": "The <var> tag is used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.",
     "description": null,
@@ -2656,7 +2656,7 @@
     "defaultCssText": "Most browsers will display the <style> element with the following default values:",
     "definition": "The <style> tag is used to define style information (CSS) for a document. Inside the <style> element you specify how HTML elements should render in a browser.",
     "description": "Defines style information for a document",
-    "exampleCode": "<html> <head> <style>  h1 {color:red;}  p {color:blue;} </style> </head> <body> <h1>A heading</h1> <p>A paragraph.</p> </body> </html>",
+    "exampleCode": "<html> <head> <style> h1 {color:red;} p {color:blue;} </style> </head> <body> <h1>A heading</h1> <p>A paragraph.</p> </body> </html>",
     "exampleText": "Use of the <style> element to apply a simple style sheet to an HTML document:",
     "globalAttrib": "The <style> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <style> tag also supports the Event Attributes in HTML.",
@@ -2798,7 +2798,7 @@
       {
         "description": "Specifies how the text in a text area is to be wrapped when submitted in a form",
         "name": "wrap",
-        "value": "hard  soft"
+        "value": "hard soft"
       }
     ]
   },
@@ -2806,7 +2806,7 @@
     "block": "true",
     "defaultCssCode": "th {display: table-cell; vertical-align: inherit; font-weight: bold; text-align: center;} ",
     "defaultCssText": "Most browsers will display the <th> element with the following default values:",
-    "definition": "The <th> tag defines a header cell in an HTML table. An HTML table has two kinds of cells: Header cells - contains header information (created with the  <th> element)  Data cells - contains data (created with the <td> element)The text in <th> elements are bold and centered by default. The text in <td> elements are regular and left-aligned by default.",
+    "definition": "The <th> tag defines a header cell in an HTML table. An HTML table has two kinds of cells: Header cells - contains header information (created with the <th> element) Data cells - contains data (created with the <td> element)The text in <th> elements are bold and centered by default. The text in <td> elements are regular and left-aligned by default.",
     "description": "Defines a header cell in a table",
     "exampleCode": "<table> <tr> <th>Month</th> <th>Savings</th> </tr> <tr> <td>January</td> <td>$100</td> </tr> <tr> <td>February</td> <td>$80</td> </tr></table>",
     "exampleText": "A simple HTML table with three rows, two header cells and four data cells:",
