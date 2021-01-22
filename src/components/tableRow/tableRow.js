@@ -1,21 +1,13 @@
 import React, { useContext } from 'react';
 import styles from './tableRow.module.scss';
 import { SelectedElementContext } from '../../context/SelectedElementContext';
-import { toggle, toggleActiveClass } from '../../resources/util';
+import { getTagType, toggle, toggleActiveClass } from '../../resources/util';
 
 const TableRow = ({ element }) => {
   const { name, html5, selfClosing } = element;
-  let { inline } = element;
-  let tagType;
   let { setSelectedElement, previousSelectedElement, setPreviousSelectedElement } = useContext(SelectedElementContext);
-
-  if (!inline) inline = 'false';
-
-  if (JSON.parse(inline)) {
-    tagType = 'inline';
-  } else {
-    tagType = 'block';
-  }
+  let { inline } = element;
+  let tagType = getTagType(inline);
 
   return (
     <div className={styles.tableRow}
