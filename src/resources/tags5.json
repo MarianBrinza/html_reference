@@ -1,22 +1,6 @@
 [
   {
     "block": "false",
-    "defaultCssCode": "",
-    "defaultCssText": "",
-    "definition": "The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers. You can use comments to explain your code.",
-    "description": "Defines a comment",
-    "exampleCode": "<!-- This is a comment. -->",
-    "exampleText": "An HTML comment:",
-    "globalAttrib": "None",
-    "globalEvents": "The comment tag does not support any event attributes.",
-    "html5": "false",
-    "inline": "true",
-    "name": "<!-- -->",
-    "selfClosing": "",
-    "attributes": []
-  },
-  {
-    "block": "false",
     "defaultCssCode": "a:link, a:visited { color: (internal value); text-decoration: underline; cursor: auto;} a:link:active, a:visited:active { color: (internal value);} ",
     "defaultCssText": "Most browsers will display the <a> element with the following default values:",
     "definition": "The <a> tag defines a hyperlink, which is used to link from one page to another. The most important attribute of the <a> element is the href attribute, which indicates the link's destination.",
@@ -91,22 +75,6 @@
     "inline": "true",
     "name": "<abbr>",
     "selfClosing": "false",
-    "attributes": []
-  },
-  {
-    "block": "",
-    "defaultCssCode": "",
-    "defaultCssText": "",
-    "definition": "All HTML documents must start with a <!DOCTYPE> declaration. The declaration is not an HTML tag. It is an \"information\" to the browser about what document type to expect.",
-    "description": "Defines the document type",
-    "exampleCode": "<!DOCTYPE html>\n<html>\n\t<head><title>Document title</title></head>\n<body>\n\tDocument content goes here...\n</body>\n</html>",
-    "exampleText": "",
-    "globalAttrib": "",
-    "globalEvents": "",
-    "html5": "",
-    "inline": "",
-    "name": "<!DOCTYPE>",
-    "selfClosing": "",
     "attributes": []
   },
   {
@@ -309,7 +277,7 @@
     "attributes": []
   },
   {
-    "block": null,
+    "block": "false",
     "defaultCssCode": "dfn { font-style: italic;} ",
     "defaultCssText": "Most browsers will display the <dfn> element with the following default values:",
     "definition": "The <dfn> tag stands for the \"definition element\", and it specifies a term that is going to be defined within the content. The nearest parent of the <dfn> tag must also contain the definition/explanation for the term.",
@@ -318,10 +286,10 @@
     "exampleText": "Mark up a term with <dfn>:",
     "globalAttrib": "The <dfn> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <dfn> tag also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "true",
     "name": "<dfn> ",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -412,7 +380,7 @@
     ]
   },
   {
-    "block": null,
+    "block": "false",
     "defaultCssCode": "em { font-style: italic;} ",
     "defaultCssText": "Most browsers will display the <em> element with the following default values:",
     "definition": "The <em> tag is used to define emphasized text. The content inside is typically displayed in italic. A screen reader will pronounce the words in <em> with an emphasis, using verbal stress.",
@@ -421,10 +389,10 @@
     "exampleText": "Mark up emphasized text in a document:",
     "globalAttrib": "The <em> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <em> tag also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "true",
     "name": "<em> ",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -520,7 +488,7 @@
     "attributes": []
   },
   {
-    "block": null,
+    "block": "false",
     "defaultCssCode": "code {font-family: monospace;} ",
     "defaultCssText": "Most browsers will display the <code> element with the following default values:",
     "definition": "The <code> tag is used to define a piece of computer code. The content inside is displayed in the browser's default monospace font. Similar tags: <samp> - defines sample output from a computer program; <kbd> - defines keyboard input; <var> - defines a variable; <pre> - defines preformatted text.",
@@ -529,10 +497,10 @@
     "exampleText": "Define some text as computer code in a document:",
     "globalAttrib": "The <code> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <code> tag also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "true",
     "name": "<code> ",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -670,7 +638,7 @@
     "attributes": []
   },
   {
-    "block": null,
+    "block": "true",
     "defaultCssCode": "h1 { display: block; font-size: 2em; margin-top: 0.67em; margin-bottom: 0.67em; margin-left: 0; margin-right: 0; font-weight: bold;} h2 { display: block; font-size: 1.5em; margin-top: 0.83em; margin-bottom: 0.83em; margin-left: 0; margin-right: 0; font-weight: bold;} h3 { display: block;font-size: 1.17em; margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0; font-weight: bold;} h4 { display: block;font-size: 1em; margin-top: 1.33em; margin-bottom: 1.33em; margin-left: 0;margin-right: 0; font-weight: bold;} h5 { display: block; font-size: .83em; margin-top: 1.67em; margin-bottom: 1.67em; margin-left: 0; margin-right: 0; font-weight: bold;} h6 { display: block; font-size: .67em; margin-top: 2.33em; margin-bottom: 2.33em;margin-left: 0; margin-right: 0;font-weight: bold;}",
     "defaultCssText": "Most browsers will display the <h1> element with the following default values:",
     "definition": "The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading. Note: Use only one <h1> per page - this should represent the main heading/subject for the whole page. Do not skip heading levels - start with <h1>, then use <h2>, and so on.",
@@ -679,10 +647,10 @@
     "exampleText": "The six different HTML headings:",
     "globalAttrib": "The <h1> to <h6> tags also supports the Global Attributes in HTML.",
     "globalEvents": "The <h1> to <h6> tags also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "false",
     "name": "<h1><h6>",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -1241,7 +1209,7 @@
     ]
   },
   {
-    "block": null,
+    "block": "false",
     "defaultCssCode": "kbd { font-family: monospace;} ",
     "defaultCssText": "Most browsers will display the <kbd> element with the following default values:",
     "definition": "The <kbd> tag is used to define keyboard input. The content inside is displayed in the browser's default monospace font.",
@@ -1250,10 +1218,10 @@
     "exampleText": "Define some text as keyboard input in a document:",
     "globalAttrib": "The <kbd> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <kbd> tag also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "true",
     "name": "<kbd> ",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -2263,7 +2231,7 @@
     "attributes": []
   },
   {
-    "block": null,
+    "block": "false",
     "defaultCssCode": "strong { font-weight: bold;} ",
     "defaultCssText": "Most browsers will display the <strong> element with the following default values:",
     "definition": "The <strong> tag is used to define text with strong importance. The content inside is typically displayed inbold. Use the <b> tag to specify bold text without any extra importance!",
@@ -2272,10 +2240,10 @@
     "exampleText": "Define important text in a document:",
     "globalAttrib": "The <strong> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <strong> tag also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "true",
     "name": "<strong> ",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -2343,7 +2311,7 @@
     ]
   },
   {
-    "block": null,
+    "block": "false",
     "defaultCssCode": "samp { font-family: monospace;} ",
     "defaultCssText": "Most browsers will display the <samp> element with the following default values:",
     "definition": "The <samp> tag is used to define sample output from a computer program. The content inside is displayed in the browser's default monospace font.",
@@ -2352,10 +2320,10 @@
     "exampleText": "Define some text as sample output from a computer program in a document:",
     "globalAttrib": "The <samp> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <samp> tag also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "true",
     "name": "<samp> ",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -2619,7 +2587,7 @@
     "attributes": []
   },
   {
-    "block": null,
+    "block": "false",
     "defaultCssCode": "var { font-style: italic;} ",
     "defaultCssText": "Most browsers will display the <var> element with the following default values:",
     "definition": "The <var> tag is used to defines a variable in programming or in a mathematical expression. The content inside is typically displayed in italic.",
@@ -2628,10 +2596,10 @@
     "exampleText": "Define some text as variables in a document:",
     "globalAttrib": "The <var> tag also supports the Global Attributes in HTML.",
     "globalEvents": "The <var> tag also supports the Event Attributes in HTML.",
-    "html5": null,
-    "inline": null,
+    "html5": "false",
+    "inline": "true",
     "name": "<var> ",
-    "selfClosing": null,
+    "selfClosing": "false",
     "attributes": []
   },
   {
@@ -2900,6 +2868,38 @@
     "inline": "false",
     "name": "<summary>",
     "selfClosing": "false",
+    "attributes": []
+  },
+  {
+    "block": "",
+    "defaultCssCode": "",
+    "defaultCssText": "",
+    "definition": "The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers. You can use comments to explain your code.",
+    "description": "Defines a comment",
+    "exampleCode": "<!-- This is a comment. -->",
+    "exampleText": "An HTML comment:",
+    "globalAttrib": "None",
+    "globalEvents": "The comment tag does not support any event attributes.",
+    "html5": "",
+    "inline": "",
+    "name": "<!-- -->",
+    "selfClosing": "",
+    "attributes": []
+  },
+  {
+    "block": "",
+    "defaultCssCode": "",
+    "defaultCssText": "",
+    "definition": "All HTML documents must start with a <!DOCTYPE> declaration. The declaration is not an HTML tag. It is an \"information\" to the browser about what document type to expect.",
+    "description": "Defines the document type",
+    "exampleCode": "<!DOCTYPE html>\n<html>\n\t<head><title>Document title</title></head>\n<body>\n\tDocument content goes here...\n</body>\n</html>",
+    "exampleText": "",
+    "globalAttrib": "",
+    "globalEvents": "",
+    "html5": "",
+    "inline": "",
+    "name": "<!DOCTYPE>",
+    "selfClosing": "",
     "attributes": []
   }
 ]
