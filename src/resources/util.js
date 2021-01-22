@@ -35,7 +35,6 @@ export const getDisplayElements = (elements, filters) => {
 };
 
 
-
 export const toggle = (elementId) => {
   const element = document.querySelector(elementId);
   const elementVisible = window.getComputedStyle(element).display;
@@ -52,8 +51,9 @@ export const toggle = (elementId) => {
 export const toggleActiveClass = (event, previousSelectedElement) => {
 
   const classList = event.target.classList;
+  const div = document.querySelector('div.selectedRow');
   // remove the class from the previous selected element
-  if (Object.keys(previousSelectedElement).length !== 0) {
+  if (Object.keys(previousSelectedElement).length !== 0 && div !== null) {
     document.querySelector('div.selectedRow').classList.remove('selectedRow');
   }
 
