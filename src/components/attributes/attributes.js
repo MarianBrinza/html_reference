@@ -3,7 +3,6 @@ import styles from './attributes.module.scss';
 
 const Attributes = ({ attributes }) => {
 
-  console.log(attributes);
   return (
     <div className={styles.attributesComp}>
 
