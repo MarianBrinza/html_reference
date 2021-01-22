@@ -4,7 +4,7 @@ const GetAllHtmlElements2 = () => {
   const data = useStaticQuery(
     graphql`
         query MyQuery {
-            allTags4Json {
+            allTags5Json {
                 edges {
                     node {
                         block
@@ -31,7 +31,7 @@ const GetAllHtmlElements2 = () => {
         }
     `
   );
-  const arr = data.allTags4Json.edges;
+  const arr = data.allTags5Json.edges;
   return arr.map(item => {
     return item.node;
   });
