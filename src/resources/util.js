@@ -65,3 +65,23 @@ export const toggleActiveClass = (event, previousSelectedElement) => {
   }
 
 };
+
+export const getTagType = (inline) => {
+  let tagType = '';
+  let inlineMissing = false;
+  // hack to make sure we always have a value for the inline var
+  if (!inline) {
+    inline = 'false';
+    inlineMissing = true;
+  }
+
+  if (JSON.parse(inline)) {
+    tagType = 'inline';
+  } else {
+    tagType = 'block';
+  }
+
+  if (inlineMissing) tagType = '';
+
+  return tagType;
+};
